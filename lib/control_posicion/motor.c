@@ -13,16 +13,19 @@ void Motor_init(Motor *self)
 }
 void Motor_ingreso(Motor *self)
 {
-    printf("Enciende motor en dirección de ingreso\n");
+    /*printf("Enciende motor en dirección de ingreso\n");
+    */
     self->estadoMotor = Motor_Estado_ENCENDIDO_INGRESO;
 }
 void Motor_salida(Motor *self)
 {
-    printf("Enciende motor en dirección de salida\n");
+    /*printf("Enciende motor en dirección de salida\n");
+    */
     self->estadoMotor = Motor_Estado_ENCENDIDO_SALIDA;
 }
 void Motor_apaga(Motor *self)
 {
     self->estadoMotor = Motor_Estado_APAGADO;
-    printf("Apaga motor\n");
+    /*printf("Apaga motor\n");
+    */
 }

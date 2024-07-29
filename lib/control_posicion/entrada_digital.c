@@ -7,11 +7,14 @@ void EntradaDigital_init(EntradaDigital *self,const char *nombre){
 }
 bool EntradaDigital_lee(EntradaDigital *self){
     const bool valorEntrada = self->estado;
-    printf("Consulta estado %s: %i\n",self->nombre,(int)valorEntrada);
+    /*printf("Consulta estado %s: %i\n",self->nombre,(int)valorEntrada);
+    */
     return valorEntrada;
 }
 void EntradaDigital_simulaValor(EntradaDigital *self, bool valor)
 {
     self->estado = valor;
-    printf("Cambio estado de entrada %s a %i\n",self->nombre,(int)valor);
+    /*printf("Cambio estado de entrada %s a %i\n",self->nombre,(int)valor);
+    */
+    
 }

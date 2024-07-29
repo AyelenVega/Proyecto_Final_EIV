@@ -2,6 +2,7 @@
 #define CONTROL_TEMPERATURA_H
 #include "termometro.h"
 #include "salida_digital.h"
+#include "variable.h"
 
 typedef enum {
     CTEstado_APAGADO,
@@ -12,14 +13,14 @@ typedef enum {
 typedef struct ControlTemperatura{
     CTEstado estado;
     Termometro *termometro;
-    int (*obtenerTemperaturaDeseada)(void);
+    VariableInt *temperaturaDeseada;
     SalidaDigital *calefactor;
     void(*apagaCalefactor)(void);
 }ControlTemperatura;
 
 void ControlTemperatura_init(ControlTemperatura *self,
                              Termometro *termometro,
-                             int (*obtenerTemperaturaDeseada)(void),
+                             VariableInt *temperaturaDeseada,
                              SalidaDigital *calefactor);
 
 void ControlTemperatura_ejecuta(ControlTemperatura *self);

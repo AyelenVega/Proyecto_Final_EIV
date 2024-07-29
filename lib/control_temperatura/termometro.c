@@ -1,14 +1,42 @@
 #include "termometro.h"
 #include <stdio.h>
 
-void Termometro_init(Termometro *self)
+//interfaz abstracta termometro
+extern inline int Termometro_obtTemperatura(Termometro *self);
+//fin interfaz abstracta
+
+//implementacion concreta del termometro simulado 
+
+static int obtTemperatura(Termometro *self);
+
+static const Termometro_VT TermometroSim_vt = {
+    .obtTemperatura = &obtTemperatura
+};
+
+static const Termometro_VT TermometroADC_vt = {
+    .obtTemperatura = &obtTemperatura
+};
+
+void TermometroSimulado_init(TermometroSim *self, int temperaturaInicial)
 {
-  self->temperatura = 25;
+    self-> termometro.vptr_ = &TermometroSim_vt;
+    TermometroSimulado_ponTemperatura(self,temperaturaInicial);
+    //Activa el conversor AD.
 }
 
-int Termometro_obtTemperatura(Termometro *self)
+static int obtTemperatura(Termometro *termometro)
 {
+    TermometroSim *const self = (TermometroSim*) termometro;
     const int temperatura = self->temperatura;
-    printf("Consulta temperatura actual: %i\n",temperatura);
+    //printf("Consulta temperatura actual: %i\n",temperatura);
     return temperatura;
+}
+
+void TermometroSimulado_ponTemperatura(TermometroSim *self, int temperatura){
+    self->temperatura = temperatura;
+    //printf("Termometro mide %i\n", temperatura);
+}
+
+void TemometroADC_init(TermometroADC *self){
+    self->termometro.vptr_= &TermometroADC_vt;
 }

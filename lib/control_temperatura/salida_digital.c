@@ -9,10 +9,10 @@ void SalidaDigital_init(SalidaDigital *self,const char *nombre)
 void SalidaDigital_enciende(SalidaDigital *self)
 {
   self->estado = 1;
-  printf("Se enciende %s\n",self->nombre);
+  //printf("Se enciende %s\n",self->nombre);
 }
 void SalidaDigital_apaga(SalidaDigital *self)
 {
   self->estado = 0;
-  printf("Se apaga %s\n",self->nombre);
+  //printf("Se apaga %s\n",self->nombre);
 }

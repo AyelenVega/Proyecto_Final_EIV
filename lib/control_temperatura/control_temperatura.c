@@ -2,11 +2,11 @@
 
 void ControlTemperatura_init(ControlTemperatura *self,
                              Termometro *termometro,
-                             int (*obtenerTemperaturaDeseada)(void),
+                             VariableInt *temperaturaDeseada,
                              SalidaDigital *calefactor)
 {
     
-    self-> obtenerTemperaturaDeseada = obtenerTemperaturaDeseada;
+    self-> temperaturaDeseada = temperaturaDeseada;
     self-> termometro = termometro;
     self-> calefactor = calefactor;
     self-> estado = CTEstado_APAGADO;
@@ -14,7 +14,7 @@ void ControlTemperatura_init(ControlTemperatura *self,
 
 void ControlTemperatura_ejecuta(ControlTemperatura *self){
     
-  const int tempDeseada = self->obtenerTemperaturaDeseada();
+  const int tempDeseada = VariableInt_obtValor(self->temperaturaDeseada);
   const int tempActual  = Termometro_obtTemperatura(self->termometro);
   const int tempHigh = tempDeseada + 1;
   const int tempLow = tempDeseada - 1;
