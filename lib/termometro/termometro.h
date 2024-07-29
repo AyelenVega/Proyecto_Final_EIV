@@ -28,15 +28,11 @@ typedef struct TermometroSim{
     int temperatura;
 }TermometroSim;
 
-typedef struct TermometroADC{
-    Termometro termometro;
-    int temperatura;
-}TermometroADC;
 
 void TermometroSimulado_init(TermometroSim *self, int temperaturaInicial);
 void TermometroSimulado_ponTemperatura(TermometroSim *self, int temperatura);
 
-void TemometroADC_init(TermometroADC *self);
+Termometro * TermometroADC_init(CanalADC canal);
 
 
 

@@ -1,6 +1,6 @@
 #include "adc.h"
 #include "gpio.h"
-#include "stm32f10x.h"
+#include <stm32f1xx.h>
 
 static void ajustaDivADC(void){
     SystemCoreClockUpdate();
@@ -10,7 +10,7 @@ static void ajustaDivADC(void){
     const uint32_t configDivisor = (divisorRequerido <= 2) ? 0b00:
                                    (divisorRequerido <= 4) ? 0b01:
                                    (divisorRequerido <= 6) ? 0b10:
-                                                             0b11;}
+                                                             0b11;
     RCC->CFGR = (RCC->CFGR & ~RCC_CFGR_ADCPRE) | (configDivisor << RCC_CFGR_ADCPRE_Pos);
 }
 

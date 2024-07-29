@@ -1,7 +1,6 @@
 #ifndef ADC_H
 #define ADC_H
 #include "gpio.h"
-#include "stm32f10x.h"
 
 typedef enum CanalADC{
     CanalADC_0,

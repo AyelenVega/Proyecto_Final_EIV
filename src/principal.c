@@ -13,6 +13,20 @@
 
 
 int main(void){
+
+    ControlTemperatura controlTemp;
+    SalidaDigital calefactor;
+    VariableInt tempDeseada;
+    Termometro *termometroADC;
+    CanalADC canalT = CanalADC_0;
+
+    termometroADC = TermometroADC_init(canalT);
+    ControlTemperatura_init(&controlTemp,termometroADC,&tempDeseada,&calefactor);
+
+    for(;;){
+        
+    }
+
     return 0;
 }
 

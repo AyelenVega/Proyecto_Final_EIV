@@ -13,10 +13,6 @@ static const Termometro_VT TermometroSim_vt = {
     .obtTemperatura = &obtTemperatura
 };
 
-static const Termometro_VT TermometroADC_vt = {
-    .obtTemperatura = &obtTemperatura
-};
-
 void TermometroSimulado_init(TermometroSim *self, int temperaturaInicial)
 {
     self-> termometro.vptr_ = &TermometroSim_vt;
@@ -37,6 +33,4 @@ void TermometroSimulado_ponTemperatura(TermometroSim *self, int temperatura){
     //printf("Termometro mide %i\n", temperatura);
 }
 
-void TemometroADC_init(TermometroADC *self){
-    self->termometro.vptr_= &TermometroADC_vt;
-}
+
