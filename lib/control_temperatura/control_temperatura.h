@@ -15,7 +15,6 @@ typedef struct ControlTemperatura{
     Termometro *termometro;
     VariableInt *temperaturaDeseada;
     SalidaDigital *calefactor;
-    void(*apagaCalefactor)(void);
 }ControlTemperatura;
 
 void ControlTemperatura_init(ControlTemperatura *self,
@@ -26,3 +25,4 @@ void ControlTemperatura_init(ControlTemperatura *self,
 void ControlTemperatura_ejecuta(ControlTemperatura *self);
 
 #endif
+

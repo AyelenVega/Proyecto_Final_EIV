@@ -17,7 +17,6 @@ void TermometroSimulado_init(TermometroSim *self, int temperaturaInicial)
 {
     self-> termometro.vptr_ = &TermometroSim_vt;
     TermometroSimulado_ponTemperatura(self,temperaturaInicial);
-    //Activa el conversor AD.
 }
 
 static int obtTemperatura(Termometro *termometro)
@@ -32,5 +31,6 @@ void TermometroSimulado_ponTemperatura(TermometroSim *self, int temperatura){
     self->temperatura = temperatura;
     //printf("Termometro mide %i\n", temperatura);
 }
+
 
 

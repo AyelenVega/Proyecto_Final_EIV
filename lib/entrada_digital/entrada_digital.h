@@ -9,7 +9,7 @@ typedef struct EntradaDigital{
   HPin pin;
 }EntradaDigital;
 
-void EntradaDigital_init(EntradaDigital *self,const char *nombre,HPin pin);
+void EntradaDigital_init(EntradaDigital *self,const char *nombre,HPin pin, bool estado);
 bool EntradaDigital_lee(EntradaDigital *self);
 void EntradaDigital_simulaValor(EntradaDigital *self, bool valor);
 #endif

@@ -14,7 +14,7 @@ typedef struct VariablePos{
     CPPosicion posicion;
 }VariablePos;
 
-static const char * describePosicion(CPPosicion pos)
+/*static const char * describePosicion(CPPosicion pos)
 {
   switch (pos){
   case CPPosicion_EN_TRANSITO: return "en transito";
@@ -22,7 +22,7 @@ static const char * describePosicion(CPPosicion pos)
   case CPPosicion_FUERA: return "fuera";
   default: return "NO VALIDO";
   }
-}
+}*/
 
 static inline void VariablePos_ponPosicion(VariablePos *self, CPPosicion posicion){
     self->posicion = posicion;

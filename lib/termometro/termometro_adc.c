@@ -19,10 +19,10 @@ Termometro * TermometroADC_init(CanalADC canal){
 static int obtTemperatura (Termometro *self){
     (void) self;
     enum {
-       V_REF = 3000,
+       V_REF = 3300, // [mV]
        NUM_BITS = 12,
-       T0 = 0,
-       TENSION_POR_GRADO = 10
+       T0 = 0, // [°C]
+       TENSION_POR_GRADO = 10 // [mV]
     };
    const int valorLeido = adc_lee();
    const int tension = (valorLeido * V_REF) / (1 << NUM_BITS);

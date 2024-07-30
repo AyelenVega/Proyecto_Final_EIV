@@ -14,17 +14,41 @@
 
 int main(void){
 
-    ControlTemperatura controlTemp;
-    SalidaDigital calefactor;
-    VariableInt tempDeseada;
-    Termometro *termometroADC;
-    CanalADC canalT = CanalADC_0;
+//MOTOR:
+    SalidaDigital salida_motor_1;
+    SalidaDigital salida_motor_2;
+    Motor motor;
 
-    termometroADC = TermometroADC_init(canalT);
-    ControlTemperatura_init(&controlTemp,termometroADC,&tempDeseada,&calefactor);
+    SalidaDigital_init(&salida_motor_1, "pin1_out", PB10);
+    SalidaDigital_init(&salida_motor_2, "pin2_out", PB11);
+
+    Motor_init(&motor, salida_motor_1, salida_motor_2);
+
+//TERMOMETRO ADC
+    CanalADC canal = CanalADC_6;
+    Termometro *termometro_adc;
+    
+    termometro_adc = TermometroADC_init(canal);
+
+
+//CALEFACTOR:
+
+    SalidaDigital salida_calefactor;
+    ControlTemperatura control_temp;
+    VariableInt tempDeseada;
+
+    VariableInt_init(&tempDeseada, 25, "Temperatura Deseada");
+
+    SalidaDigital_init(&salida_calefactor, "pin_calefactor", PA1);
+    ControlTemperatura_init(&control_temp, termometro_adc, &tempDeseada, &salida_calefactor);
+
+//LOOP:
 
     for(;;){
-        ControlTemperatura_ejecuta(&controlTemp);
+    
+    Motor_ingreso(&motor);
+    ControlTemperatura_ejecuta(&control_temp);
+
     }
     return 0;
 }

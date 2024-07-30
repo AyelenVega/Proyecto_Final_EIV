@@ -26,7 +26,7 @@ void ControlPosicion_ejecuta(ControlPosicion *self)
   const CPPosicion posActual = ControlPosicion_calculaPosicion(self);
   switch(self->estado){
   case ControlPosicion_Estado_PARADO:
-  if (posActual== CPPosicion_INVALIDA)
+  if (posActual == CPPosicion_INVALIDA)
   {
     self->estado = ControlPosicion_Estado_PARADO;
      Motor_apaga(self->motor);  
