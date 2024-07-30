@@ -1,9 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
+.pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+                              .pio\build\bluepill_f103c8\src\principal.o (EntradaDigital_init)
 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
                               .pio\build\bluepill_f103c8\src\principal.o (SalidaDigital_init)
 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
                               .pio\build\bluepill_f103c8\src\principal.o (Motor_init)
+.pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+                              .pio\build\bluepill_f103c8\src\principal.o (ControlPosicion_init)
 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
                               .pio\build\bluepill_f103c8\src\principal.o (TermometroADC_init)
 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
@@ -19,7 +23,7 @@ c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/ar
 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
                               .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o) (adc_init)
 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
-                              .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o) (Pin_configuraEntrada)
+                              .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o) (Pin_configuraEntrada)
 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
                               .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o) (Termometro_obtTemperatura)
 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
@@ -49,16 +53,18 @@ Discarded input sections
  .text          0x00000000        0x0 .pio\build\bluepill_f103c8\src\principal.o
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\src\principal.o
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\src\principal.o
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
  .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
  .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
- .text.Motor_salida
-                0x00000000       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
- .text.Motor_apaga
-                0x00000000       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
  .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
@@ -103,7 +109,6 @@ Discarded input sections
                 0x00000000       0x2e .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Bus_inicializa
                 0x00000000       0xdc .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
- .text.Pin_lee  0x00000000       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_obtEstado
                 0x00000000       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_conmuta
@@ -205,7 +210,7 @@ LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/g
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x0800010c      0x604
+.text           0x0800010c      0x764
                 0x0800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x0800010c       0x40 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
@@ -276,156 +281,176 @@ LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/g
                 0x080001e4       0x58 .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
                 0x080001e4                SystemCoreClockUpdate
  .text.startup.main
-                0x0800023c       0x74 .pio\build\bluepill_f103c8\src\principal.o
+                0x0800023c       0xb0 .pio\build\bluepill_f103c8\src\principal.o
                 0x0800023c                main
+ .text.EntradaDigital_init
+                0x080002ec       0x1c .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+                0x080002ec                EntradaDigital_init
+ .text.EntradaDigital_lee
+                0x08000308       0x12 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+                0x08000308                EntradaDigital_lee
  .text.SalidaDigital_init
-                0x080002b0       0x18 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
-                0x080002b0                SalidaDigital_init
+                0x0800031a       0x18 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x0800031a                SalidaDigital_init
  .text.SalidaDigital_enciende
-                0x080002c8       0x14 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
-                0x080002c8                SalidaDigital_enciende
+                0x08000332       0x14 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x08000332                SalidaDigital_enciende
  .text.SalidaDigital_apaga
-                0x080002dc       0x16 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
-                0x080002dc                SalidaDigital_apaga
+                0x08000346       0x16 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x08000346                SalidaDigital_apaga
  .text.Motor_init
-                0x080002f2       0x2a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
-                0x080002f2                Motor_init
+                0x0800035c       0x2a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x0800035c                Motor_init
  .text.Motor_ingreso
-                0x0800031c       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
-                0x0800031c                Motor_ingreso
+                0x08000386       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x08000386                Motor_ingreso
+ .text.Motor_salida
+                0x080003a0       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x080003a0                Motor_salida
+ .text.Motor_apaga
+                0x080003ba       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x080003ba                Motor_apaga
+ .text.ControlPosicion_init
+                0x080003d4       0x10 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+                0x080003d4                ControlPosicion_init
+ .text.ControlPosicion_ejecuta
+                0x080003e4       0x6e .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+                0x080003e4                ControlPosicion_ejecuta
  .text.obtTemperatura
-                0x08000336       0x16 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+                0x08000452       0x16 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .text.TermometroADC_init
-                0x0800034c       0x18 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
-                0x0800034c                TermometroADC_init
+                0x08000468       0x18 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+                0x08000468                TermometroADC_init
  .text.ControlTemperatura_init
-                0x08000364        0xc .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
-                0x08000364                ControlTemperatura_init
+                0x08000480        0xc .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+                0x08000480                ControlTemperatura_init
  .text.ControlTemperatura_ejecuta
-                0x08000370       0x44 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
-                0x08000370                ControlTemperatura_ejecuta
+                0x0800048c       0x44 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+                0x0800048c                ControlTemperatura_ejecuta
  .text.__libc_init_array
-                0x080003b4       0x48 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
-                0x080003b4                __libc_init_array
+                0x080004d0       0x48 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+                0x080004d0                __libc_init_array
  .text.adc_init
-                0x080003fc       0xb4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
-                0x080003fc                adc_init
- .text.adc_lee  0x080004b0       0x20 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
-                0x080004b0                adc_lee
+                0x08000518       0xb4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+                0x08000518                adc_init
+ .text.adc_lee  0x080005cc       0x20 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+                0x080005cc                adc_lee
  .text.configuraPinesJtagComoGpio
-                0x080004d0       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x080005ec       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.configuraPin
-                0x08000514       0x3c .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08000630       0x3c .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.iniciaPuerto
-                0x08000550       0x84 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x0800066c       0x84 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_configuraEntrada
-                0x080005d4       0x64 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
-                0x080005d4                Pin_configuraEntrada
+                0x080006f0       0x64 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x080006f0                Pin_configuraEntrada
  .text.Pin_configuraSalida
-                0x08000638       0x48 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
-                0x08000638                Pin_configuraSalida
+                0x08000754       0x48 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08000754                Pin_configuraSalida
+ .text.Pin_lee  0x0800079c       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x0800079c                Pin_lee
  .text.Pin_ponAlto
-                0x08000680       0x38 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
-                0x08000680                Pin_ponAlto
+                0x080007e0       0x38 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x080007e0                Pin_ponAlto
  .text.Pin_ponBajo
-                0x080006b8       0x38 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
-                0x080006b8                Pin_ponBajo
+                0x08000818       0x38 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08000818                Pin_ponBajo
  .text.Termometro_obtTemperatura
-                0x080006f0        0x6 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
-                0x080006f0                Termometro_obtTemperatura
+                0x08000850        0x6 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+                0x08000850                Termometro_obtTemperatura
  *(.glue_7)
- .glue_7        0x080006f6        0x0 linker stubs
+ .glue_7        0x08000856        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080006f6        0x0 linker stubs
+ .glue_7t       0x08000856        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x080006f6        0x2 
- .eh_frame      0x080006f8        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ *fill*         0x08000856        0x2 
+ .eh_frame      0x08000858        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
  *(.init)
- .init          0x080006f8        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-                0x080006f8                _init
- .init          0x080006fc        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .init          0x08000858        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x08000858                _init
+ .init          0x0800085c        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
  *(.fini)
- .fini          0x08000704        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-                0x08000704                _fini
- .fini          0x08000708        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
-                0x08000710                . = ALIGN (0x4)
-                0x08000710                _etext = .
+ .fini          0x08000864        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x08000864                _fini
+ .fini          0x08000868        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x08000870                . = ALIGN (0x4)
+                0x08000870                _etext = .
 
-.vfp11_veneer   0x08000710        0x0
- .vfp11_veneer  0x08000710        0x0 linker stubs
+.vfp11_veneer   0x08000870        0x0
+ .vfp11_veneer  0x08000870        0x0 linker stubs
 
-.v4_bx          0x08000710        0x0
- .v4_bx         0x08000710        0x0 linker stubs
+.v4_bx          0x08000870        0x0
+ .v4_bx         0x08000870        0x0 linker stubs
 
-.iplt           0x08000710        0x0
- .iplt          0x08000710        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.iplt           0x08000870        0x0
+ .iplt          0x08000870        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
 
-.rodata         0x08000710       0x8c
-                0x08000710                . = ALIGN (0x4)
+.rodata         0x08000870       0xc8
+                0x08000870                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08000710       0x10 .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
-                0x08000710                AHBPrescTable
+                0x08000870       0x10 .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
+                0x08000870                AHBPrescTable
  .rodata.main.str1.1
-                0x08000720       0x35 .pio\build\bluepill_f103c8\src\principal.o
- *fill*         0x08000755        0x3 
+                0x08000880       0x71 .pio\build\bluepill_f103c8\src\principal.o
+ *fill*         0x080008f1        0x3 
  .rodata.TermometroADC_vt
-                0x08000758        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+                0x080008f4        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .rodata.pinDeCanal.5069
-                0x0800075c        0xa .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
- *fill*         0x08000766        0x2 
+                0x080008f8        0xa .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+ *fill*         0x08000902        0x2 
  .rodata.CSWTCH.17
-                0x08000768        0xc .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08000904        0xc .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .rodata.CSWTCH.21
-                0x08000774        0x4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08000910        0x4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .rodata.numeroPin.5104
-                0x08000778       0x21 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
-                0x0800079c                . = ALIGN (0x4)
- *fill*         0x08000799        0x3 
+                0x08000914       0x21 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08000938                . = ALIGN (0x4)
+ *fill*         0x08000935        0x3 
 
-.rel.dyn        0x0800079c        0x0
- .rel.iplt      0x0800079c        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.rel.dyn        0x08000938        0x0
+ .rel.iplt      0x08000938        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
 
-.ARM.extab      0x0800079c        0x0
-                0x0800079c                . = ALIGN (0x4)
+.ARM.extab      0x08000938        0x0
+                0x08000938                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800079c                . = ALIGN (0x4)
+                0x08000938                . = ALIGN (0x4)
 
-.ARM            0x0800079c        0x0
-                0x0800079c                . = ALIGN (0x4)
-                0x0800079c                __exidx_start = .
+.ARM            0x08000938        0x0
+                0x08000938                . = ALIGN (0x4)
+                0x08000938                __exidx_start = .
  *(.ARM.exidx*)
-                0x0800079c                __exidx_end = .
-                0x0800079c                . = ALIGN (0x4)
+                0x08000938                __exidx_end = .
+                0x08000938                . = ALIGN (0x4)
 
-.preinit_array  0x0800079c        0x0
-                0x0800079c                . = ALIGN (0x4)
-                0x0800079c                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08000938        0x0
+                0x08000938                . = ALIGN (0x4)
+                0x08000938                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0800079c                PROVIDE (__preinit_array_end, .)
-                0x0800079c                . = ALIGN (0x4)
+                0x08000938                PROVIDE (__preinit_array_end, .)
+                0x08000938                . = ALIGN (0x4)
 
-.init_array     0x0800079c        0x4
-                0x0800079c                . = ALIGN (0x4)
-                0x0800079c                PROVIDE (__init_array_start, .)
+.init_array     0x08000938        0x4
+                0x08000938                . = ALIGN (0x4)
+                0x08000938                PROVIDE (__init_array_start, .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0800079c        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
-                0x080007a0                PROVIDE (__init_array_end, .)
-                0x080007a0                . = ALIGN (0x4)
+ .init_array    0x08000938        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x0800093c                PROVIDE (__init_array_end, .)
+                0x0800093c                . = ALIGN (0x4)
 
-.fini_array     0x080007a0        0x4
-                0x080007a0                . = ALIGN (0x4)
+.fini_array     0x0800093c        0x4
+                0x0800093c                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080007a0        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .fini_array    0x0800093c        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end, .)
-                0x080007a4                . = ALIGN (0x4)
-                0x080007a4                _sidata = LOADADDR (.data)
+                0x08000940                . = ALIGN (0x4)
+                0x08000940                _sidata = LOADADDR (.data)
 
-.data           0x20000000        0x4 load address 0x080007a4
+.data           0x20000000        0x4 load address 0x08000940
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -438,11 +463,11 @@ LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/g
                 0x20000004                . = ALIGN (0x4)
                 0x20000004                _edata = .
 
-.igot.plt       0x20000004        0x0 load address 0x080007a8
+.igot.plt       0x20000004        0x0 load address 0x08000944
  .igot.plt      0x20000004        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
                 0x20000004                . = ALIGN (0x4)
 
-.bss            0x20000004       0x20 load address 0x080007a8
+.bss            0x20000004       0x20 load address 0x08000944
                 0x20000004                _sbss = .
                 0x20000004                __bss_start__ = _sbss
  *(.bss)
@@ -456,7 +481,7 @@ LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/g
                 0x20000024                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000024      0x604 load address 0x080007a8
+                0x20000024      0x604 load address 0x08000944
                 0x20000028                . = ALIGN (0x8)
  *fill*         0x20000024        0x4 
                 [!provide]                PROVIDE (end, .)
@@ -486,31 +511,37 @@ LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/g
  .ARM.attributes
                 0x0000009e       0x33 .pio\build\bluepill_f103c8\src\principal.o
  .ARM.attributes
-                0x000000d1       0x33 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x000000d1       0x33 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
  .ARM.attributes
-                0x00000104       0x33 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x00000104       0x33 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
  .ARM.attributes
-                0x00000137       0x33 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+                0x00000137       0x33 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
  .ARM.attributes
-                0x0000016a       0x33 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+                0x0000016a       0x33 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
  .ARM.attributes
-                0x0000019d       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+                0x0000019d       0x33 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .ARM.attributes
-                0x000001ca       0x33 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+                0x000001d0       0x33 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
  .ARM.attributes
-                0x000001fd       0x33 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x00000203       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00000230       0x33 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+                0x00000230       0x33 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
  .ARM.attributes
-                0x00000263       0x1d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x00000263       0x33 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+ .ARM.attributes
+                0x00000296       0x33 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+ .ARM.attributes
+                0x000002c9       0x1d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
 OUTPUT(.pio\build\bluepill_f103c8\firmware.elf elf32-littlearm)
 
 .comment        0x00000000       0x7e
  .comment       0x00000000       0x7e .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
                                  0x7f (size before relaxing)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\src\principal.o
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)

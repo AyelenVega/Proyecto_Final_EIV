@@ -24,6 +24,17 @@ int main(void){
 
     Motor_init(&motor, salida_motor_1, salida_motor_2);
 
+//CONTROL POSICION
+    ControlPosicion controlPos;
+    VariablePos posDeseada;
+    EntradaDigital finCarreraDentro, finCarreraFuera;
+
+    EntradaDigital_init(&finCarreraDentro, "Fin de Carrera Dentro", PA8, true);
+    EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA9, true); 
+
+    VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
+    ControlPosicion_init(&controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
+
 //TERMOMETRO ADC
     CanalADC canal = CanalADC_6;
     Termometro *termometro_adc;
@@ -42,12 +53,12 @@ int main(void){
     SalidaDigital_init(&salida_calefactor, "pin_calefactor", PA1);
     ControlTemperatura_init(&control_temp, termometro_adc, &tempDeseada, &salida_calefactor);
 
-//LOOP:
+//LOOP PRINCIPAL:
 
     for(;;){
     
-    Motor_ingreso(&motor);
     ControlTemperatura_ejecuta(&control_temp);
+    ControlPosicion_ejecuta(&controlPos);
 
     }
     return 0;

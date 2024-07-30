@@ -27,5 +27,4 @@ void ControlPosicion_init(ControlPosicion *self,
 void ControlPosicion_ejecuta(ControlPosicion *self);
 
 
-
 #endif
