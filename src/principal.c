@@ -24,9 +24,8 @@ int main(void){
     ControlTemperatura_init(&controlTemp,termometroADC,&tempDeseada,&calefactor);
 
     for(;;){
-        
+        ControlTemperatura_ejecuta(&controlTemp);
     }
-
     return 0;
 }
 

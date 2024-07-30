@@ -9,6 +9,7 @@ typedef enum Motor_Estado {
 
 typedef struct Motor{
     Motor_Estado estadoMotor;
+    // deberia agregarle salidas digitales si se usa motor de continua
 }Motor;
 
 void Motor_init(Motor *self);

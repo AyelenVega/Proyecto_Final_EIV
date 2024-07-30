@@ -1,18 +1,26 @@
 #include "salida_digital.h"
+#include "gpio.h"
 #include <stdio.h>
 
-void SalidaDigital_init(SalidaDigital *self,const char *nombre)
-{
-  self->estado = 0;
+void SalidaDigital_init(SalidaDigital *self,const char *nombre,HPin pin){
+  self->estado = 0;  //recordar que se inicializa en 0
   self->nombre = nombre;
+  self->pin = pin;
+  //configuro el pin
+  Pin_configuraSalida(pin,PUSH_PULL,V_BAJA);
 }
-void SalidaDigital_enciende(SalidaDigital *self)
-{
-  self->estado = 1;
-  //printf("Se enciende %s\n",self->nombre);
+
+
+void SalidaDigital_enciende(SalidaDigital *self){
+  if(self->estado == 0){
+    Pin_ponAlto(self->pin);
+    self->estado = 1;
+  }
 }
-void SalidaDigital_apaga(SalidaDigital *self)
-{
-  self->estado = 0;
-  //printf("Se apaga %s\n",self->nombre);
+
+void SalidaDigital_apaga(SalidaDigital *self){
+  if(self->estado == 1){
+    Pin_ponBajo(self->pin);
+    self->estado = 0;
+  }
 }

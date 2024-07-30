@@ -26,11 +26,12 @@ static const char * describePosicion(CPPosicion pos)
 
 static inline void VariablePos_ponPosicion(VariablePos *self, CPPosicion posicion){
     self->posicion = posicion;
-    printf("Establece %s : %s\n",self->nombre,describePosicion(posicion));
+    /*printf("Establece %s : %s\n",self->nombre,describePosicion(posicion));
+    */
 }
 
 static inline CPPosicion VariablePos_obtPos(VariablePos *self){
-    printf("Consulta %s : %s\n",self->nombre,describePosicion(self->posicion));
+    //printf("Consulta %s : %s\n",self->nombre,describePosicion(self->posicion));
     return self->posicion;
 }
 
