@@ -53,8 +53,6 @@ void adc_init (CanalADC canal){
     ADC1->SQR1 = 0;
     ADC1->SQR3 = canal;
     ADC1->SMPR2 = 0;
-    
-    //Iniciar la conversión
 }
 
 int adc_lee (void){

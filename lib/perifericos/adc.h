@@ -2,6 +2,10 @@
 #define ADC_H
 #include "gpio.h"
 
+/**
+ * @brief Canales del conversor AD
+ * 
+ */
 typedef enum CanalADC{
     CanalADC_0,
     CanalADC_1,
@@ -18,7 +22,18 @@ typedef enum CanalADC{
     CanalADC_INVALIDO
 }CanalADC;
 
+/**
+ * @brief Inicializa el conversor AD
+ * 
+ * @param canal es el canal a utilizar
+ */
 void adc_init (CanalADC canal);
+
+/**
+ * @brief Realiza la conversion y devuelve el valor convertido
+ * 
+ * @return int valor convertido
+ */
 int adc_lee (void);
 
 #endif

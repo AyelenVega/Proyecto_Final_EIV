@@ -32,7 +32,7 @@ int main(void){
     EntradaDigital_init(&finCarreraDentro, "Fin de Carrera Dentro", PA8, true);
     EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA9, true); 
 
-    VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
+    VariablePos_init(&posDeseada, CPPosicion_FUERA, "Posicion Deseada");
     ControlPosicion_init(&controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
 
 //TERMOMETRO ADC

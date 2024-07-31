@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 void SalidaDigital_init(SalidaDigital *self,const char *nombre,HPin pin){
-  self->estado = 0;  //recordar que se inicializa en 0
+  self->estado = 0;  //Se inicializa en 0
   self->nombre = nombre;
   self->pin = pin;
-  //configuro el pin
   Pin_configuraSalida(pin,PUSH_PULL,V_BAJA);
 }
 

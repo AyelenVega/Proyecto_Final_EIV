@@ -14,27 +14,33 @@ typedef struct VariablePos{
     CPPosicion posicion;
 }VariablePos;
 
-/*static const char * describePosicion(CPPosicion pos)
-{
-  switch (pos){
-  case CPPosicion_EN_TRANSITO: return "en transito";
-  case CPPosicion_DENTRO: return "dentro";
-  case CPPosicion_FUERA: return "fuera";
-  default: return "NO VALIDO";
-  }
-}*/
-
+/**
+ * @brief Establece la posicion de la bandeja
+ * 
+ * @param self puntero a struct VariablePos
+ * @param posicion posicion de la bandeja
+ */
 static inline void VariablePos_ponPosicion(VariablePos *self, CPPosicion posicion){
     self->posicion = posicion;
-    /*printf("Establece %s : %s\n",self->nombre,describePosicion(posicion));
-    */
 }
 
+/**
+ * @brief Obtiene la posicion de la bandeja
+ * 
+ * @param self puntero a struct VariablePos
+ * @return CPPosicion posicion de la bandeja
+ */
 static inline CPPosicion VariablePos_obtPos(VariablePos *self){
-    //printf("Consulta %s : %s\n",self->nombre,describePosicion(self->posicion));
     return self->posicion;
 }
 
+/**
+ * @brief Inicializa el struct VariablePos
+ * 
+ * @param self puntero a struct VariablePos
+ * @param posInicial Posicion inicial de la bandeja 
+ * @param nombre Nombre de la variable
+ */
 static inline void VariablePos_init(VariablePos *self, CPPosicion posInicial, const char *nombre)
 {
     self->nombre = nombre;

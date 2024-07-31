@@ -125,14 +125,6 @@ Discarded input sections
  .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
- .text.obtTemperatura
-                0x00000000        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
- .text.TermometroSimulado_init
-                0x00000000        0xc .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
- .text.TermometroSimulado_ponTemperatura
-                0x00000000        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
- .rodata.TermometroSim_vt
-                0x00000000        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
  .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
  .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
  .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)

@@ -4,34 +4,39 @@
 
 typedef struct Termometro Termometro;
 
-//tabla de  funciones virtuales
+/**
+ * @brief Tabla virtual de funciones (VT = Virtual Table)
+ * 
+ */
 typedef struct Termometro_VT{
     int (*const obtTemperatura)(Termometro *self);
     
 }Termometro_VT;
 
- //interfaz abstracta
+ //INTERFAZ ABSTRACTA:
+
+/**
+ * @brief define el objeto "Termometro"
+ * 
+ */
 struct Termometro{
-    const Termometro_VT *vptr_; //virtual pointer
+    const Termometro_VT *vptr_; //Virtual pointer
 };
 
+/**
+ * @brief Obtiene temperatura
+ * 
+ * @param self puntero a struct Termometro
+ * @return int temperatura obtenida
+ */
 inline int Termometro_obtTemperatura(Termometro *self){
      return self->vptr_->obtTemperatura(self);
  }
  
-//fin interfaz abstracta
+//FIN INTERFAZ ABSTRACTA
 
-//implementacion concreta - termometro simulado
+//IMPLEMENTACION CONCRETA - Termometro ADC
  
-typedef struct TermometroSim{
-    Termometro termometro; //debe ser el primer miembro
-    int temperatura;
-}TermometroSim;
-
-
-void TermometroSimulado_init(TermometroSim *self, int temperaturaInicial);
-void TermometroSimulado_ponTemperatura(TermometroSim *self, int temperatura);
-
 Termometro * TermometroADC_init(CanalADC canal);
 
 

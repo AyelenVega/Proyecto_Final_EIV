@@ -17,11 +17,24 @@ typedef struct ControlTemperatura{
     SalidaDigital *calefactor;
 }ControlTemperatura;
 
+/**
+ * @brief Inicializa el control de temperatura
+ * 
+ * @param self puntero a struct ControlTemperatura
+ * @param termometro puntero a struct Termometro
+ * @param temperaturaDeseada puntero a VariableInt para la temperatura deseada 
+ * @param calefactor puntero a SalidaDigital para el calefactor
+ */
 void ControlTemperatura_init(ControlTemperatura *self,
                              Termometro *termometro,
                              VariableInt *temperaturaDeseada,
                              SalidaDigital *calefactor);
 
+/**
+ * @brief Ejecuta el control del calefactor
+ * 
+ * @param self puntero a struct ControlTemperatura
+ */
 void ControlTemperatura_ejecuta(ControlTemperatura *self);
 
 #endif
