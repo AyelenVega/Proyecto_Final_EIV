@@ -1,16 +1,15 @@
 #include "gpio.h"
-#include "tempo_hw.h"
-#include "tempo_ms.h"
-#include "paso_a_paso.h"
-#include "serie.h"
+#include "puerto_serie.h"
 #include "control_posicion.h"
 #include "variable_posicion.h"
 #include "control_temperatura.h"
 #include "termometro.h"
 #include "salida_digital.h"
 #include "variable.h"
+#include "fifo.h"
 #include <stdbool.h>
 
+static PuertoSerie* creaPuertoSerie(int baudrate);
 
 int main(void){
 
@@ -30,9 +29,9 @@ int main(void){
     EntradaDigital finCarreraDentro, finCarreraFuera;
 
     EntradaDigital_init(&finCarreraDentro, "Fin de Carrera Dentro", PA8, true);
-    EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA9, true); 
+    EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA7, true); 
 
-    VariablePos_init(&posDeseada, CPPosicion_FUERA, "Posicion Deseada");
+    VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
     ControlPosicion_init(&controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
 
 //TERMOMETRO ADC
@@ -53,14 +52,48 @@ int main(void){
     SalidaDigital_init(&salida_calefactor, "pin_calefactor", PA1);
     ControlTemperatura_init(&control_temp, termometro_adc, &tempDeseada, &salida_calefactor);
 
+//PUERTO SERIE:
+    int baudrate = 9600; //[bps]
+    char caracter;
+    PuertoSerie *puerto;
+
+    puerto = creaPuertoSerie(baudrate);
+    for (const char *p = "Prueba\n"; *p != 0; p++){
+        PuertoSerie_intentaTransmitir(puerto, *p);
+    }
+
 //LOOP PRINCIPAL:
 
     for(;;){
     
-    ControlTemperatura_ejecuta(&control_temp);
-    ControlPosicion_ejecuta(&controlPos);
-
+        ControlTemperatura_ejecuta(&control_temp);
+        ControlPosicion_ejecuta(&controlPos);
+        if (PuertoSerie_intentaRecibir(puerto, &caracter))
+        {
+            PuertoSerie_intentaTransmitir(puerto,caracter);
+        }
+        PuertoSerie_ejecuta(puerto);
+        
     }
     return 0;
+}
+
+static PuertoSerie* creaPuertoSerie(int baudrate){
+    static Fifo cola_recepcion;
+    static Fifo cola_transmision;
+    enum{
+        CAPACIDAD_COLA_RECEPCION = 256,
+        CAPACIDAD_COLA_TRANSMISION = 256
+    };
+    static char datos_recepcion[CAPACIDAD_COLA_RECEPCION];
+    static char datos_transmision[CAPACIDAD_COLA_TRANSMISION];
+
+    Fifo_init(&cola_recepcion,CAPACIDAD_COLA_RECEPCION, datos_recepcion);
+    Fifo_init(&cola_transmision,CAPACIDAD_COLA_TRANSMISION, datos_transmision);
+    
+    static PuertoSerie puerto;
+    PuertoSerie_init(&puerto, &cola_recepcion, &cola_transmision, baudrate);
+
+    return &puerto;
 }
 
