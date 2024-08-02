@@ -1,12 +1,12 @@
 #include "gpio.h"
 #include "puerto_serie.h"
 #include "control_posicion.h"
-#include "variable_posicion.h"
 #include "control_temperatura.h"
-#include "termometro.h"
 #include "salida_digital.h"
-#include "variable.h"
 #include "fifo.h"
+#include "definiciones_comandos.h"
+#include "diccionario_comandos.h"
+#include "interprete.h"
 #include <stdbool.h>
 
 static PuertoSerie* creaPuertoSerie(int baudrate);
@@ -54,26 +54,46 @@ int main(void){
 
 //PUERTO SERIE:
     int baudrate = 9600; //[bps]
-    char caracter;
+
     PuertoSerie *puerto;
 
     puerto = creaPuertoSerie(baudrate);
-    for (const char *p = "Prueba\n"; *p != 0; p++){
-        PuertoSerie_intentaTransmitir(puerto, *p);
-    }
+
+// COMANDOS
+    static ComandoStemp stemp;    
+    static ComandoSpos spos;    
+    static ComandoTemp temp;    
+    static ComandoPos pos;
+
+    ComandoStemp_init(&stemp,&tempDeseada);    
+    ComandoSpos_init(&spos,&posDeseada);    
+    ComandoTemp_init(&temp,termometro_adc);    
+    ComandoPos_init(&pos,&finCarreraDentro,&finCarreraFuera);
+// DICCIONARIO COMANDOS
+    static const EntradaDiccionarioComandos comandos[]={
+        {.nombre = "stemp",  .comando = &stemp.comando},
+        {.nombre = "stemp?", .comando = &stemp.comando},
+        {.nombre = "spos",   .comando = &spos.comando},
+        {.nombre = "spos?",  .comando = &spos.comando},
+        {.nombre = "temp?",  .comando = &temp.comando},
+        {.nombre = "pos?",   .comando = &pos.comando},
+    };
+    static const int numComandos = sizeof(comandos)/sizeof(*comandos);
+    static DiccionarioComandos diccionarioComandos;
+
+    DiccionarioComandos_init(&diccionarioComandos,numComandos,comandos);
+
+// INTERPRETE
+    static Interprete interprete;
+    Interprete_init(&interprete,puerto,&diccionarioComandos);
 
 //LOOP PRINCIPAL:
 
     for(;;){
-    
+        Interprete_ejecuta(&interprete);
         ControlTemperatura_ejecuta(&control_temp);
         ControlPosicion_ejecuta(&controlPos);
-        if (PuertoSerie_intentaRecibir(puerto, &caracter))
-        {
-            PuertoSerie_intentaTransmitir(puerto,caracter);
-        }
-        PuertoSerie_ejecuta(puerto);
-        
+        PuertoSerie_ejecuta(puerto);       
     }
     return 0;
 }
