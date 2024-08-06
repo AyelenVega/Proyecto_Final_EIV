@@ -9,6 +9,7 @@
 #include "interprete.h"
 #include <stdbool.h>
 
+static void Init(void);  
 static PuertoSerie* creaPuertoSerie(int baudrate);
 
 int main(void){
@@ -34,7 +35,7 @@ int main(void){
     VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
     ControlPosicion_init(&controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
 
-//TERMOMETRO ADC
+//TERMOMETRO ADC:
     CanalADC canal = CanalADC_6;
     Termometro *termometro_adc;
     
@@ -87,6 +88,8 @@ int main(void){
     static Interprete interprete;
     Interprete_init(&interprete,puerto,&diccionarioComandos);
 
+    Init();
+
 //LOOP PRINCIPAL:
 
     for(;;){
@@ -117,3 +120,88 @@ static PuertoSerie* creaPuertoSerie(int baudrate){
     return &puerto;
 }
 
+static void Init(void){
+
+// MOTOR:
+
+    SalidaDigital salidaMotor1;
+    SalidaDigital salidaMotor2;
+
+    Motor motor;
+
+    SalidaDigital_init(&salidaMotor1,"Pin 1 OUT",PB10);    
+    SalidaDigital_init(&salidaMotor2,"Pin 2 OUT",PB11);
+
+    Motor_init(&motor,salidaMotor1,salidaMotor2);
+
+// CONTROL POSICION:
+
+    ControlPosicion controlPos;
+    VariablePos posDeseada;
+    EntradaDigital finCarreraDentro, finCarreraFuera;
+
+    EntradaDigital_init(&finCarreraDentro, "Fin de Carrera Dentro", PA8, true);
+    EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA7, true); 
+
+    VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
+    ControlPosicion_init(&controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
+
+// TERMOMETRO ADC:
+
+    Termometro *termometroADC;
+    CanalADC canalTemp = CanalADC_6;
+
+    termometroADC = TermometroADC_init(canalTemp);
+
+// CALEFACTOR:
+
+    SalidaDigital calefactor;
+    ControlTemperatura controlTemp;
+    VariableInt tempDeseada;
+
+    VariableInt_init(&tempDeseada,25,"Temperatura Deseada");
+    SalidaDigital_init(&calefactor,"Pin Calefactor",PA1);
+
+    ControlTemperatura_init(&controlTemp,termometroADC,&tempDeseada,&calefactor);
+
+// PUERTO SERIE:
+
+    int baudrate = 9600;  //[bps]
+    PuertoSerie *puerto;
+
+    puerto = creaPuertoSerie(baudrate);
+
+// COMANDOS:
+
+    static ComandoStemp stemp;    
+    static ComandoSpos spos;    
+    static ComandoTemp temp;    
+    static ComandoPos pos;
+
+    ComandoStemp_init(&stemp,&tempDeseada);    
+    ComandoSpos_init(&spos,&posDeseada);    
+    ComandoTemp_init(&temp,termometroADC);    
+    ComandoPos_init(&pos,&finCarreraDentro,&finCarreraFuera);
+
+// DICCIONARIO COMANDOS:
+
+    static const EntradaDiccionarioComandos comandos[]={
+        {.nombre = "stemp",  .comando = &stemp.comando},
+        {.nombre = "stemp?", .comando = &stemp.comando},
+        {.nombre = "spos",   .comando = &spos.comando},
+        {.nombre = "spos?",  .comando = &spos.comando},
+        {.nombre = "temp?",  .comando = &temp.comando},
+        {.nombre = "pos?",   .comando = &pos.comando},
+    };
+    static const int numComandos = sizeof(comandos)/sizeof(*comandos);
+    static DiccionarioComandos diccionarioComandos;
+
+    DiccionarioComandos_init(&diccionarioComandos,numComandos,comandos);
+
+// INTERPRETE:
+
+    static Interprete interprete;
+
+    Interprete_init(&interprete,puerto,&diccionarioComandos);
+
+}
