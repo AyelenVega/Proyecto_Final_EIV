@@ -1,7 +1,7 @@
 #include "gpio.h"
 #include "puerto_serie.h"
 #include "control_posicion.h"
-#include "control_temperatura.h"
+#include "control_Temperatura.h"
 #include "salida_digital.h"
 #include "fifo.h"
 #include "definiciones_comandos.h"
@@ -9,7 +9,7 @@
 #include "interprete.h"
 #include <stdbool.h>
 
-static void Init(void);  
+static void Init(Interprete *interprete,ControlTemperatura *controlTemp, ControlPosicion *controlPos, PuertoSerie *puerto);  
 static PuertoSerie* creaPuertoSerie(int baudrate);
 
 int main(void){
@@ -45,13 +45,13 @@ int main(void){
 //CALEFACTOR:
 
     SalidaDigital salida_calefactor;
-    ControlTemperatura control_temp;
+    ControlTemperatura controlTemp;
     VariableInt tempDeseada;
 
     VariableInt_init(&tempDeseada, 25, "Temperatura Deseada");
 
     SalidaDigital_init(&salida_calefactor, "pin_calefactor", PA1);
-    ControlTemperatura_init(&control_temp, termometro_adc, &tempDeseada, &salida_calefactor);
+    ControlTemperatura_init(&controlTemp, termometro_adc, &tempDeseada, &salida_calefactor);
 
 //PUERTO SERIE:
     int baudrate = 9600; //[bps]
@@ -88,13 +88,13 @@ int main(void){
     static Interprete interprete;
     Interprete_init(&interprete,puerto,&diccionarioComandos);
 
-    Init();
+    Init(&interprete,&controlTemp,&controlPos,puerto);
 
 //LOOP PRINCIPAL:
 
     for(;;){
         Interprete_ejecuta(&interprete);
-        ControlTemperatura_ejecuta(&control_temp);
+        ControlTemperatura_ejecuta(&controlTemp);
         ControlPosicion_ejecuta(&controlPos);
         PuertoSerie_ejecuta(puerto);       
     }
@@ -120,7 +120,7 @@ static PuertoSerie* creaPuertoSerie(int baudrate){
     return &puerto;
 }
 
-static void Init(void){
+static void Init(Interprete *interprete,ControlTemperatura *controlTemp, ControlPosicion *controlPos, PuertoSerie *puerto){
 
 // MOTOR:
 
@@ -136,7 +136,6 @@ static void Init(void){
 
 // CONTROL POSICION:
 
-    ControlPosicion controlPos;
     VariablePos posDeseada;
     EntradaDigital finCarreraDentro, finCarreraFuera;
 
@@ -144,7 +143,7 @@ static void Init(void){
     EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA7, true); 
 
     VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
-    ControlPosicion_init(&controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
+    ControlPosicion_init(controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
 
 // TERMOMETRO ADC:
 
@@ -156,18 +155,16 @@ static void Init(void){
 // CALEFACTOR:
 
     SalidaDigital calefactor;
-    ControlTemperatura controlTemp;
     VariableInt tempDeseada;
 
     VariableInt_init(&tempDeseada,25,"Temperatura Deseada");
     SalidaDigital_init(&calefactor,"Pin Calefactor",PA1);
 
-    ControlTemperatura_init(&controlTemp,termometroADC,&tempDeseada,&calefactor);
+    ControlTemperatura_init(controlTemp,termometroADC,&tempDeseada,&calefactor);
 
 // PUERTO SERIE:
 
     int baudrate = 9600;  //[bps]
-    PuertoSerie *puerto;
 
     puerto = creaPuertoSerie(baudrate);
 
@@ -200,8 +197,6 @@ static void Init(void){
 
 // INTERPRETE:
 
-    static Interprete interprete;
-
-    Interprete_init(&interprete,puerto,&diccionarioComandos);
+    Interprete_init(interprete,puerto,&diccionarioComandos);
 
 }
