@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 static bool esPregunta(const char* cadena)
 {
@@ -45,9 +46,21 @@ static void stempEjecuta(Comando *comando,ContextoComando *ctx)
         ContextoComando_transmiteCadena(ctx, stemp_char);
         ContextoComando_transmiteCadena(ctx, "\n");
     }else{
-        int valor = atoi(ContextoComando_obtParametro(ctx));
-        VariableInt_ponValor(self->tempDeseada,valor);
-        ContextoComando_transmiteCadena(ctx, "OK\n");
+        const char *parametro = ContextoComando_obtParametro(ctx);
+        if (!isalpha(*parametro) && (isalnum(*parametro)))
+        {
+            int valor = atoi(parametro);
+            VariableInt_ponValor(self->tempDeseada,valor);
+            ContextoComando_transmiteCadena(ctx, "OK\n"); 
+        }
+        else
+        {
+            ContextoComando_transmiteCadena(ctx, "stemp invalida");
+            ContextoComando_transmiteCadena(ctx, "\n");
+
+        }
+        
+
     }
 }
 
