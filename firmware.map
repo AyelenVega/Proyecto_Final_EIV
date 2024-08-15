@@ -1,104 +1,104 @@
 Archive member included to satisfy reference by file (symbol)
 
-.pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
+.pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
                               .pio\build\bluepill_f103c8\src\principal.o (EntradaDigital_init)
-.pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
+.pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
                               .pio\build\bluepill_f103c8\src\principal.o (SalidaDigital_init)
-.pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
+.pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
                               .pio\build\bluepill_f103c8\src\principal.o (Motor_init)
-.pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
+.pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
                               .pio\build\bluepill_f103c8\src\principal.o (ControlPosicion_init)
-.pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
+.pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
                               .pio\build\bluepill_f103c8\src\definiciones_comandos.o (Termometro_obtTemperatura)
-.pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
+.pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
                               .pio\build\bluepill_f103c8\src\principal.o (TermometroADC_init)
-.pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
+.pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
                               .pio\build\bluepill_f103c8\src\principal.o (ControlTemperatura_init)
-.pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
+.pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
                               .pio\build\bluepill_f103c8\src\definiciones_comandos.o (ContextoComando_obtNombre)
-.pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
+.pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
                               .pio\build\bluepill_f103c8\src\principal.o (DiccionarioComandos_init)
-.pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
+.pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
                               .pio\build\bluepill_f103c8\src\principal.o (Fifo_init)
-.pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
+.pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
                               .pio\build\bluepill_f103c8\src\principal.o (PuertoSerie_init)
-.pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+.pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
                               .pio\build\bluepill_f103c8\src\principal.o (Interprete_init)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
                               .pio\build\bluepill_f103c8\src\definiciones_comandos.o (atoi)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (exit)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (__libc_init_array)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
-                              .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o) (__locale_ctype_ptr)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o) (__ascii_mbtowc)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (memset)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (exit)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (__libc_init_array)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                              .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o) (__locale_ctype_ptr)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o) (__ascii_mbtowc)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (memset)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
                               .pio\build\bluepill_f103c8\src\definiciones_comandos.o (snprintf)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
                               .pio\build\bluepill_f103c8\src\definiciones_comandos.o (strcmp)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o) (_strtol_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o) (__ascii_wctomb)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o) (_ctype_)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o) (_svfprintf_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (memcpy)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_free_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_malloc_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o) (errno)
-.pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
-                              .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o) (adc_init)
-.pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                              .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o) (Pin_configuraEntrada)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o) (_sbrk)
-c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
-                              c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o) (_exit)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o) (_strtol_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o) (__ascii_wctomb)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o) (_ctype_)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o) (_svfprintf_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (memcpy)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_free_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_malloc_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o) (errno)
+.pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+                              .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o) (adc_init)
+.pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                              .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o) (Pin_configuraEntrada)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+                              c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o) (_exit)
 
 Allocating common symbols
 Common symbol       size              file
 
-errno               0x4               c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+errno               0x4               c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
 
 Discarded input sections
 
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
- .data          0x00000000        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
- .text          0x00000000       0x74 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
- .ARM.extab     0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
- .ARM.exidx     0x00000000        0x8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .data          0x00000000        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .text          0x00000000       0x74 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
  .ARM.attributes
-                0x00000000       0x1b c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+                0x00000000       0x1b c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
  .text          0x00000000       0x14 .pio\build\bluepill_f103c8\FrameworkCMSIS\gcc\startup_stm32f103xb.o
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\FrameworkCMSIS\gcc\startup_stm32f103xb.o
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\FrameworkCMSIS\gcc\startup_stm32f103xb.o
@@ -113,190 +113,190 @@ Discarded input sections
  .text          0x00000000        0x0 .pio\build\bluepill_f103c8\src\principal.o
  .data          0x00000000        0x0 .pio\build\bluepill_f103c8\src\principal.o
  .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\src\principal.o
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
- .text._atoi_r  0x00000000        0x8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
- .text.exit     0x00000000       0x28 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
- .debug_frame   0x00000000       0x28 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+ .text._atoi_r  0x00000000        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x28 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000000       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+                0x00000000       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x00000000        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x00000000        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
  .text._setlocale_r
-                0x00000000       0x38 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x00000000       0x38 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
  .text.__locale_mb_cur_max
-                0x00000000       0x1c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x00000000       0x1c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
  .text.setlocale
-                0x00000000       0x10 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x00000000       0x10 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
  .bss._PathLocale
-                0x00000000        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+                0x00000000        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
  .text._mbtowc_r
-                0x00000000       0x24 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
- .text.memset   0x00000000       0x10 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x00000000       0x20 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+                0x00000000       0x24 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x10 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x20 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+                0x00000000       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
  .text._snprintf_r
-                0x00000000       0x5e c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+                0x00000000       0x5e c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
  .text._strtol_r
-                0x00000000       0x24 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+                0x00000000       0x24 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
  .text.strtol_l
-                0x00000000       0x1c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+                0x00000000       0x1c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
  .text._wctomb_r
-                0x00000000       0x24 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000       0x24 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
  .text.__ssprint_r
-                0x00000000       0xf0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+                0x00000000       0xf0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
  .text.cleanup_glue
-                0x00000000       0x1a c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+                0x00000000       0x1a c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
  .text._reclaim_reent
-                0x00000000       0xb8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
- .text          0x00000000        0x0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
- .data          0x00000000        0x0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
- .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0xb8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+ .text          0x00000000        0x0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+ .data          0x00000000        0x0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+ .bss           0x00000000        0x0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.creaMascaraConfig
-                0x00000000       0x2e .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0x2e .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Bus_inicializa
-                0x00000000       0xdc .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0xdc .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_obtEstado
-                0x00000000       0x44 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_conmuta
-                0x00000000       0x44 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_escribe
-                0x00000000       0x40 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0x40 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Bus_ponModoEntrada
-                0x00000000       0xc0 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
- .text.Bus_lee  0x00000000       0x7c .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0xc0 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+ .text.Bus_lee  0x00000000       0x7c .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Bus_ponModoSalida
-                0x00000000       0xa4 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000000       0xa4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Bus_escribe
-                0x00000000       0x84 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
- .text._exit    0x00000000        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
- .debug_frame   0x00000000       0x20 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+                0x00000000       0x84 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
  .ARM.attributes
-                0x00000000       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
- .eh_frame      0x00000000        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+                0x00000000       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
  .ARM.attributes
-                0x00000000       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
- .text          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
- .data          0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
- .bss           0x00000000        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x00000000       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .text          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .data          0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .bss           0x00000000        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
 
 Memory Configuration
 
@@ -307,47 +307,47 @@ FLASH            0x08000000         0x00010000         xr
 
 Linker script and memory map
 
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
 LOAD .pio\build\bluepill_f103c8\FrameworkCMSIS\gcc\startup_stm32f103xb.o
 LOAD .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
 LOAD .pio\build\bluepill_f103c8\src\definiciones_comandos.o
 LOAD .pio\build\bluepill_f103c8\src\principal.o
 START GROUP
-LOAD .pio\build\bluepill_f103c8\libd0c\libperifericos.a
-LOAD .pio\build\bluepill_f103c8\liba50\libentrada_digital.a
-LOAD .pio\build\bluepill_f103c8\libd64\libsalida_digital.a
-LOAD .pio\build\bluepill_f103c8\lib6b8\libmotor.a
-LOAD .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a
-LOAD .pio\build\bluepill_f103c8\lib4c2\libtermometro.a
-LOAD .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a
-LOAD .pio\build\bluepill_f103c8\lib7fc\libcomando.a
-LOAD .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a
-LOAD .pio\build\bluepill_f103c8\lib71f\libfifo.a
-LOAD .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a
-LOAD .pio\build\bluepill_f103c8\libc92\libinterprete.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libm.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libstdc++_nano.a
+LOAD .pio\build\bluepill_f103c8\lib79c\libperifericos.a
+LOAD .pio\build\bluepill_f103c8\lib385\libentrada_digital.a
+LOAD .pio\build\bluepill_f103c8\libffc\libsalida_digital.a
+LOAD .pio\build\bluepill_f103c8\lib3df\libmotor.a
+LOAD .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a
+LOAD .pio\build\bluepill_f103c8\lib7f4\libtermometro.a
+LOAD .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a
+LOAD .pio\build\bluepill_f103c8\lib821\libcomando.a
+LOAD .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a
+LOAD .pio\build\bluepill_f103c8\libbe6\libfifo.a
+LOAD .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a
+LOAD .pio\build\bluepill_f103c8\lib4a2\libinterprete.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libm.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libstdc++_nano.a
 END GROUP
 START GROUP
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
 END GROUP
 START GROUP
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a
 END GROUP
 START GROUP
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a
 END GROUP
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
-LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+LOAD c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
                 0x20005000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
                 0x00000200                _Min_Heap_Size = 0x200
                 0x00000400                _Min_Stack_Size = 0x400
@@ -359,11 +359,11 @@ LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x0800010c     0x1748
+.text           0x0800010c     0x1644
                 0x0800010c                . = ALIGN (0x4)
  *(.text)
- .text          0x0800010c       0x40 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
- .text          0x0800014c       0x14 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
+ .text          0x0800010c       0x40 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .text          0x0800014c       0x14 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
                 0x0800014c                strcmp
  *(.text*)
  .text.Reset_Handler
@@ -454,344 +454,341 @@ LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/
  .text.ComandoTemp_init
                 0x080003e4        0xc .pio\build\bluepill_f103c8\src\definiciones_comandos.o
                 0x080003e4                ComandoTemp_init
- .text.creaPuertoSerie.constprop.4
-                0x080003f0       0x48 .pio\build\bluepill_f103c8\src\principal.o
  .text.startup.main
-                0x08000438      0x204 .pio\build\bluepill_f103c8\src\principal.o
-                0x08000438                main
+                0x080003f0      0x148 .pio\build\bluepill_f103c8\src\principal.o
+                0x080003f0                main
  .text.EntradaDigital_init
-                0x0800063c       0x1c .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
-                0x0800063c                EntradaDigital_init
+                0x08000538       0x1c .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+                0x08000538                EntradaDigital_init
  .text.EntradaDigital_lee
-                0x08000658       0x12 .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
-                0x08000658                EntradaDigital_lee
+                0x08000554       0x12 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+                0x08000554                EntradaDigital_lee
  .text.SalidaDigital_init
-                0x0800066a       0x18 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
-                0x0800066a                SalidaDigital_init
+                0x08000566       0x18 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x08000566                SalidaDigital_init
  .text.SalidaDigital_enciende
-                0x08000682       0x14 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
-                0x08000682                SalidaDigital_enciende
+                0x0800057e       0x14 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x0800057e                SalidaDigital_enciende
  .text.SalidaDigital_apaga
-                0x08000696       0x16 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
-                0x08000696                SalidaDigital_apaga
+                0x08000592       0x16 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+                0x08000592                SalidaDigital_apaga
  .text.Motor_init
-                0x080006ac       0x2a .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
-                0x080006ac                Motor_init
+                0x080005a8       0x2a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x080005a8                Motor_init
  .text.Motor_ingreso
-                0x080006d6       0x1a .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
-                0x080006d6                Motor_ingreso
+                0x080005d2       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x080005d2                Motor_ingreso
  .text.Motor_salida
-                0x080006f0       0x1a .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
-                0x080006f0                Motor_salida
+                0x080005ec       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x080005ec                Motor_salida
  .text.Motor_apaga
-                0x0800070a       0x1a .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
-                0x0800070a                Motor_apaga
+                0x08000606       0x1a .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+                0x08000606                Motor_apaga
  .text.ControlPosicion_init
-                0x08000724       0x10 .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
-                0x08000724                ControlPosicion_init
+                0x08000620       0x10 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+                0x08000620                ControlPosicion_init
  .text.ControlPosicion_ejecuta
-                0x08000734       0x6e .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
-                0x08000734                ControlPosicion_ejecuta
+                0x08000630       0x6e .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+                0x08000630                ControlPosicion_ejecuta
  .text.Termometro_obtTemperatura
-                0x080007a2        0x6 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
-                0x080007a2                Termometro_obtTemperatura
+                0x0800069e        0x6 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+                0x0800069e                Termometro_obtTemperatura
  .text.obtTemperatura
-                0x080007a8       0x16 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
- *fill*         0x080007be        0x2 
+                0x080006a4       0x16 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+ *fill*         0x080006ba        0x2 
  .text.TermometroADC_init
-                0x080007c0       0x18 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
-                0x080007c0                TermometroADC_init
+                0x080006bc       0x18 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+                0x080006bc                TermometroADC_init
  .text.ControlTemperatura_init
-                0x080007d8        0xc .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
-                0x080007d8                ControlTemperatura_init
+                0x080006d4        0xc .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+                0x080006d4                ControlTemperatura_init
  .text.ControlTemperatura_ejecuta
-                0x080007e4       0x44 .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
-                0x080007e4                ControlTemperatura_ejecuta
+                0x080006e0       0x44 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+                0x080006e0                ControlTemperatura_ejecuta
  .text.ContextoComando_obtNombre
-                0x08000828        0x6 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
-                0x08000828                ContextoComando_obtNombre
+                0x08000724        0x6 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+                0x08000724                ContextoComando_obtNombre
  .text.ContextoComando_obtParametro
-                0x0800082e        0x6 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
-                0x0800082e                ContextoComando_obtParametro
+                0x0800072a        0x6 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+                0x0800072a                ContextoComando_obtParametro
  .text.ContextoComando_transmiteCadena
-                0x08000834        0x6 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
-                0x08000834                ContextoComando_transmiteCadena
+                0x08000730        0x6 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+                0x08000730                ContextoComando_transmiteCadena
  .text.Comando_ejecuta
-                0x0800083a        0x6 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
-                0x0800083a                Comando_ejecuta
+                0x08000736        0x6 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+                0x08000736                Comando_ejecuta
  .text.DiccionarioComandos_init
-                0x08000840        0x6 .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
-                0x08000840                DiccionarioComandos_init
+                0x0800073c        0x6 .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
+                0x0800073c                DiccionarioComandos_init
  .text.DiccionarioComandos_obtComando
-                0x08000846       0x32 .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
-                0x08000846                DiccionarioComandos_obtComando
+                0x08000742       0x32 .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
+                0x08000742                DiccionarioComandos_obtComando
  .text.Fifo_init
-                0x08000878        0xe .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
-                0x08000878                Fifo_init
+                0x08000774        0xe .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+                0x08000774                Fifo_init
  .text.Fifo_pon
-                0x08000886       0x30 .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
-                0x08000886                Fifo_pon
+                0x08000782       0x30 .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+                0x08000782                Fifo_pon
  .text.Fifo_quita
-                0x080008b6       0x2c .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
-                0x080008b6                Fifo_quita
- *fill*         0x080008e2        0x2 
+                0x080007b2       0x2c .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+                0x080007b2                Fifo_quita
+ *fill*         0x080007de        0x2 
  .text.PuertoSerie_init
-                0x080008e4       0x74 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
-                0x080008e4                PuertoSerie_init
+                0x080007e0       0x74 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+                0x080007e0                PuertoSerie_init
  .text.PuertoSerie_intentaRecibir
-                0x08000958        0x6 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
-                0x08000958                PuertoSerie_intentaRecibir
+                0x08000854        0x6 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+                0x08000854                PuertoSerie_intentaRecibir
  .text.PuertoSerie_intentaTransmitir
-                0x0800095e        0x6 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
-                0x0800095e                PuertoSerie_intentaTransmitir
+                0x0800085a        0x6 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+                0x0800085a                PuertoSerie_intentaTransmitir
  .text.PuertoSerie_ejecuta
-                0x08000964       0x38 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
-                0x08000964                PuertoSerie_ejecuta
+                0x08000860       0x38 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+                0x08000860                PuertoSerie_ejecuta
  .text.obtNombre
-                0x0800099c        0x4 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x08000898        0x4 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .text.obtParametro
-                0x080009a0        0x4 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x0800089c        0x4 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .text.transmiteCadena.isra.0
-                0x080009a4       0x1e .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x080008a0       0x1e .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .text.implTransmiteCadena
-                0x080009c2        0x6 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x080008be        0x6 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .text.ejecutaComando
-                0x080009c8       0x2c .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x080008c4       0x2c .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .text.Interprete_init
-                0x080009f4       0x18 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
-                0x080009f4                Interprete_init
+                0x080008f0       0x18 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
+                0x080008f0                Interprete_init
  .text.Interprete_ejecuta
-                0x08000a0c       0xbc .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
-                0x08000a0c                Interprete_ejecuta
- .text.atoi     0x08000ac8        0x8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
-                0x08000ac8                atoi
+                0x08000908       0xbc .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
+                0x08000908                Interprete_ejecuta
+ .text.atoi     0x080009c4        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+                0x080009c4                atoi
  .text.__libc_init_array
-                0x08000ad0       0x48 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
-                0x08000ad0                __libc_init_array
+                0x080009cc       0x48 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+                0x080009cc                __libc_init_array
  .text.__locale_ctype_ptr_l
-                0x08000b18        0x6 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
-                0x08000b18                __locale_ctype_ptr_l
- *fill*         0x08000b1e        0x2 
+                0x08000a14        0x6 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x08000a14                __locale_ctype_ptr_l
+ *fill*         0x08000a1a        0x2 
  .text.__locale_ctype_ptr
-                0x08000b20       0x1c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
-                0x08000b20                __locale_ctype_ptr
+                0x08000a1c       0x1c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x08000a1c                __locale_ctype_ptr
  .text.__ascii_mbtowc
-                0x08000b3c       0x24 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
-                0x08000b3c                __ascii_mbtowc
+                0x08000a38       0x24 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+                0x08000a38                __ascii_mbtowc
  .text.snprintf
-                0x08000b60       0x68 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
-                0x08000b60                sniprintf
-                0x08000b60                snprintf
+                0x08000a5c       0x68 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+                0x08000a5c                sniprintf
+                0x08000a5c                snprintf
  .text._strtol_l.isra.0
-                0x08000bc8       0xf6 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
- *fill*         0x08000cbe        0x2 
- .text.strtol   0x08000cc0       0x2c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
-                0x08000cc0                strtol
+                0x08000ac4       0xf6 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+ *fill*         0x08000bba        0x2 
+ .text.strtol   0x08000bbc       0x2c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+                0x08000bbc                strtol
  .text.__ascii_wctomb
-                0x08000cec       0x1a c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
-                0x08000cec                __ascii_wctomb
+                0x08000be8       0x1a c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+                0x08000be8                __ascii_wctomb
  .text.__ssputs_r
-                0x08000d06       0xb4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x08000d06                __ssputs_r
- *fill*         0x08000dba        0x2 
+                0x08000c02       0xb4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08000c02                __ssputs_r
+ *fill*         0x08000cb6        0x2 
  .text._svfprintf_r
-                0x08000dbc      0x1ec c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x08000dbc                _svfiprintf_r
-                0x08000dbc                _svfprintf_r
+                0x08000cb8      0x1ec c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08000cb8                _svfiprintf_r
+                0x08000cb8                _svfprintf_r
  .text._printf_common
-                0x08000fa8       0xec c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08000fa8                _printf_common
+                0x08000ea4       0xec c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08000ea4                _printf_common
  .text._printf_i
-                0x08001094      0x224 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08001094                _printf_i
- .text.memchr   0x080012b8       0x1c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
-                0x080012b8                memchr
- .text.memcpy   0x080012d4       0x16 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
-                0x080012d4                memcpy
- .text.memmove  0x080012ea       0x32 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
-                0x080012ea                memmove
- .text._free_r  0x0800131c       0x98 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
-                0x0800131c                _free_r
+                0x08000f90      0x224 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08000f90                _printf_i
+ .text.memchr   0x080011b4       0x1c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+                0x080011b4                memchr
+ .text.memcpy   0x080011d0       0x16 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+                0x080011d0                memcpy
+ .text.memmove  0x080011e6       0x32 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+                0x080011e6                memmove
+ .text._free_r  0x08001218       0x98 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+                0x08001218                _free_r
  .text._malloc_r
-                0x080013b4       0xb4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
-                0x080013b4                _malloc_r
+                0x080012b0       0xb4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+                0x080012b0                _malloc_r
  .text._realloc_r
-                0x08001468       0x4c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
-                0x08001468                _realloc_r
- .text._sbrk_r  0x080014b4       0x20 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
-                0x080014b4                _sbrk_r
+                0x08001364       0x4c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+                0x08001364                _realloc_r
+ .text._sbrk_r  0x080013b0       0x20 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+                0x080013b0                _sbrk_r
  .text.__malloc_lock
-                0x080014d4        0x2 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
-                0x080014d4                __malloc_lock
+                0x080013d0        0x2 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+                0x080013d0                __malloc_lock
  .text.__malloc_unlock
-                0x080014d6        0x2 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
-                0x080014d6                __malloc_unlock
+                0x080013d2        0x2 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+                0x080013d2                __malloc_unlock
  .text._malloc_usable_size_r
-                0x080014d8       0x10 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
-                0x080014d8                _malloc_usable_size_r
+                0x080013d4       0x10 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+                0x080013d4                _malloc_usable_size_r
  .text.adc_init
-                0x080014e8       0xb4 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
-                0x080014e8                adc_init
- .text.adc_lee  0x0800159c       0x20 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
-                0x0800159c                adc_lee
+                0x080013e4       0xb4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+                0x080013e4                adc_init
+ .text.adc_lee  0x08001498       0x20 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+                0x08001498                adc_lee
  .text.configuraPinesJtagComoGpio
-                0x080015bc       0x44 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x080014b8       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.configuraPin
-                0x08001600       0x3c .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x080014fc       0x3c .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.iniciaPuerto
-                0x0800163c       0x84 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x08001538       0x84 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .text.Pin_configuraEntrada
-                0x080016c0       0x64 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                0x080016c0                Pin_configuraEntrada
+                0x080015bc       0x64 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x080015bc                Pin_configuraEntrada
  .text.Pin_configuraSalida
-                0x08001724       0x48 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                0x08001724                Pin_configuraSalida
- .text.Pin_lee  0x0800176c       0x44 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                0x0800176c                Pin_lee
+                0x08001620       0x48 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08001620                Pin_configuraSalida
+ .text.Pin_lee  0x08001668       0x44 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08001668                Pin_lee
  .text.Pin_ponAlto
-                0x080017b0       0x38 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                0x080017b0                Pin_ponAlto
+                0x080016ac       0x38 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x080016ac                Pin_ponAlto
  .text.Pin_ponBajo
-                0x080017e8       0x38 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                0x080017e8                Pin_ponBajo
- .text._sbrk    0x08001820       0x1c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
-                0x08001820                _sbrk
+                0x080016e4       0x38 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x080016e4                Pin_ponBajo
+ .text._sbrk    0x0800171c       0x1c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+                0x0800171c                _sbrk
  *(.glue_7)
- .glue_7        0x0800183c        0x0 linker stubs
+ .glue_7        0x08001738        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800183c        0x0 linker stubs
+ .glue_7t       0x08001738        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800183c        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .eh_frame      0x08001738        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
  *(.init)
- .init          0x0800183c        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-                0x0800183c                _init
- .init          0x08001840        0x8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .init          0x08001738        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x08001738                _init
+ .init          0x0800173c        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
  *(.fini)
- .fini          0x08001848        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-                0x08001848                _fini
- .fini          0x0800184c        0x8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
-                0x08001854                . = ALIGN (0x4)
-                0x08001854                _etext = .
+ .fini          0x08001744        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x08001744                _fini
+ .fini          0x08001748        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x08001750                . = ALIGN (0x4)
+                0x08001750                _etext = .
 
-.vfp11_veneer   0x08001854        0x0
- .vfp11_veneer  0x08001854        0x0 linker stubs
+.vfp11_veneer   0x08001750        0x0
+ .vfp11_veneer  0x08001750        0x0 linker stubs
 
-.v4_bx          0x08001854        0x0
- .v4_bx         0x08001854        0x0 linker stubs
+.v4_bx          0x08001750        0x0
+ .v4_bx         0x08001750        0x0 linker stubs
 
-.iplt           0x08001854        0x0
- .iplt          0x08001854        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.iplt           0x08001750        0x0
+ .iplt          0x08001750        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
 
-.rodata         0x08001854      0x314
-                0x08001854                . = ALIGN (0x4)
+.rodata         0x08001750      0x2c4
+                0x08001750                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08001854       0x10 .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
-                0x08001854                AHBPrescTable
+                0x08001750       0x10 .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
+                0x08001750                AHBPrescTable
  .rodata.CSWTCH.18
-                0x08001864        0xc .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x08001760        0xc .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.comando_vt.6084
-                0x08001870        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x0800176c        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.comando_vt.6089
-                0x08001874        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x08001770        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.comando_vt.6095
-                0x08001878        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x08001774        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.comando_vt.6100
-                0x0800187c        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x08001778        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.posEjecuta.str1.1
-                0x08001880        0xa .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x0800177c        0xa .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.sposEjecuta.str1.1
-                0x0800188a       0x14 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x08001786       0x14 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.stempEjecuta.str1.1
-                0x0800189e        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x0800179a        0x4 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.str1.1
-                0x080018a2        0xc .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x0800179e        0xc .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .rodata.tempEjecuta.str1.1
-                0x080018ae        0x3 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
+                0x080017aa        0x3 .pio\build\bluepill_f103c8\src\definiciones_comandos.o
                                   0x5 (size before relaxing)
- *fill*         0x080018b1        0x3 
- .rodata.comandos.5667
-                0x080018b4       0x30 .pio\build\bluepill_f103c8\src\principal.o
- .rodata.comandos.5704
-                0x080018e4       0x30 .pio\build\bluepill_f103c8\src\principal.o
+ *fill*         0x080017ad        0x3 
+ .rodata.comandos.5686
+                0x080017b0       0x30 .pio\build\bluepill_f103c8\src\principal.o
  .rodata.main.str1.1
-                0x08001914       0x94 .pio\build\bluepill_f103c8\src\principal.o
+                0x080017e0       0x73 .pio\build\bluepill_f103c8\src\principal.o
  .rodata.str1.1
-                0x080019a8       0x18 .pio\build\bluepill_f103c8\src\principal.o
+                0x08001853       0x18 .pio\build\bluepill_f103c8\src\principal.o
                                  0x23 (size before relaxing)
+ *fill*         0x0800186b        0x1 
  .rodata.TermometroADC_vt
-                0x080019c0        0x4 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
+                0x0800186c        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .rodata.contexto_comando_vt.4354
-                0x080019c4        0xc .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x08001870        0xc .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .rodata.ejecutaComando.str1.1
-                0x080019d0       0x19 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x0800187c       0x19 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .rodata._setlocale_r.str1.1
-                0x080019e9        0x8 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x08001895        0x8 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x080019f1        0x2 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x0800189d        0x2 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
  .rodata._ctype_
-                0x080019f3      0x101 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
-                0x080019f3                _ctype_
+                0x0800189f      0x101 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
+                0x0800189f                _ctype_
  .rodata._svfprintf_r.str1.1
-                0x08001af4       0x11 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x080019a0       0x11 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x08001b05       0x22 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080019b1       0x22 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata.pinDeCanal.5069
-                0x08001b27        0xa .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
- *fill*         0x08001b31        0x3 
+                0x080019d3        0xa .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+ *fill*         0x080019dd        0x3 
  .rodata.CSWTCH.17
-                0x08001b34        0xc .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x080019e0        0xc .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .rodata.CSWTCH.21
-                0x08001b40        0x4 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x080019ec        0x4 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .rodata.numeroPin.5104
-                0x08001b44       0x21 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
-                0x08001b68                . = ALIGN (0x4)
- *fill*         0x08001b65        0x3 
+                0x080019f0       0x21 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
+                0x08001a14                . = ALIGN (0x4)
+ *fill*         0x08001a11        0x3 
 
-.rel.dyn        0x08001b68        0x0
- .rel.iplt      0x08001b68        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.rel.dyn        0x08001a14        0x0
+ .rel.iplt      0x08001a14        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
 
-.ARM.extab      0x08001b68        0x0
-                0x08001b68                . = ALIGN (0x4)
+.ARM.extab      0x08001a14        0x0
+                0x08001a14                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08001b68                . = ALIGN (0x4)
+                0x08001a14                . = ALIGN (0x4)
 
-.ARM            0x08001b68        0x0
-                0x08001b68                . = ALIGN (0x4)
-                0x08001b68                __exidx_start = .
+.ARM            0x08001a14        0x0
+                0x08001a14                . = ALIGN (0x4)
+                0x08001a14                __exidx_start = .
  *(.ARM.exidx*)
-                0x08001b68                __exidx_end = .
-                0x08001b68                . = ALIGN (0x4)
+                0x08001a14                __exidx_end = .
+                0x08001a14                . = ALIGN (0x4)
 
-.preinit_array  0x08001b68        0x0
-                0x08001b68                . = ALIGN (0x4)
-                0x08001b68                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08001a14        0x0
+                0x08001a14                . = ALIGN (0x4)
+                0x08001a14                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x08001b68                PROVIDE (__preinit_array_end, .)
-                0x08001b68                . = ALIGN (0x4)
+                0x08001a14                PROVIDE (__preinit_array_end, .)
+                0x08001a14                . = ALIGN (0x4)
 
-.init_array     0x08001b68        0x4
-                0x08001b68                . = ALIGN (0x4)
-                0x08001b68                PROVIDE (__init_array_start, .)
+.init_array     0x08001a14        0x4
+                0x08001a14                . = ALIGN (0x4)
+                0x08001a14                PROVIDE (__init_array_start, .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08001b68        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
-                0x08001b6c                PROVIDE (__init_array_end, .)
-                0x08001b6c                . = ALIGN (0x4)
+ .init_array    0x08001a14        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x08001a18                PROVIDE (__init_array_end, .)
+                0x08001a18                . = ALIGN (0x4)
 
-.fini_array     0x08001b6c        0x4
-                0x08001b6c                . = ALIGN (0x4)
+.fini_array     0x08001a18        0x4
+                0x08001a18                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08001b6c        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .fini_array    0x08001a18        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end, .)
-                0x08001b70                . = ALIGN (0x4)
-                0x08001b70                _sidata = LOADADDR (.data)
+                0x08001a1c                . = ALIGN (0x4)
+                0x08001a1c                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x1d4 load address 0x08001b70
+.data           0x20000000      0x1d4 load address 0x08001a1c
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -800,85 +797,74 @@ LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/
                 0x20000000        0x4 .pio\build\bluepill_f103c8\FrameworkCMSIS\system_stm32f1xx.o
                 0x20000000                SystemCoreClock
  .data._impure_ptr
-                0x20000004        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+                0x20000004        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
                 0x20000004                _impure_ptr
  .data.impure_data
-                0x20000008       0x60 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+                0x20000008       0x60 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
  .data.__global_locale
-                0x20000068      0x16c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x20000068      0x16c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
                 0x20000068                __global_locale
  *(.RamFunc)
  *(.RamFunc*)
                 0x200001d4                . = ALIGN (0x4)
                 0x200001d4                _edata = .
 
-.igot.plt       0x200001d4        0x0 load address 0x08001d44
- .igot.plt      0x200001d4        0x0 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.igot.plt       0x200001d4        0x0 load address 0x08001bf0
+ .igot.plt      0x200001d4        0x0 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
                 0x200001d4                . = ALIGN (0x4)
 
-.bss            0x200001d4      0x2e4 load address 0x08001d44
+.bss            0x200001d4      0x28c load address 0x08001bf0
                 0x200001d4                _sbss = .
                 0x200001d4                __bss_start__ = _sbss
  *(.bss)
- .bss           0x200001d4       0x1c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .bss           0x200001d4       0x1c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
  *(.bss*)
- .bss.cola_recepcion.5675
+ .bss.cola_recepcion.5658
                 0x200001f0       0x14 .pio\build\bluepill_f103c8\src\principal.o
- .bss.cola_transmision.5676
+ .bss.cola_transmision.5659
                 0x20000204       0x14 .pio\build\bluepill_f103c8\src\principal.o
- .bss.datos_recepcion.5680
+ .bss.datos_recepcion.5663
                 0x20000218      0x100 .pio\build\bluepill_f103c8\src\principal.o
- .bss.datos_transmision.5681
+ .bss.datos_transmision.5664
                 0x20000318      0x100 .pio\build\bluepill_f103c8\src\principal.o
- .bss.diccionarioComandos.5669
+ .bss.diccionarioComandos.5688
                 0x20000418        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.diccionarioComandos.5706
-                0x20000420        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.interprete.5670
-                0x20000428       0x2c .pio\build\bluepill_f103c8\src\principal.o
- .bss.pos.5666  0x20000454        0xc .pio\build\bluepill_f103c8\src\principal.o
- .bss.pos.5703  0x20000460        0xc .pio\build\bluepill_f103c8\src\principal.o
- .bss.puerto.5682
-                0x2000046c        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.spos.5664
-                0x20000474        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.spos.5701
-                0x2000047c        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.stemp.5663
-                0x20000484        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.stemp.5700
-                0x2000048c        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.temp.5665
-                0x20000494        0x8 .pio\build\bluepill_f103c8\src\principal.o
- .bss.temp.5702
-                0x2000049c        0x8 .pio\build\bluepill_f103c8\src\principal.o
+ .bss.pos.5685  0x20000420        0xc .pio\build\bluepill_f103c8\src\principal.o
+ .bss.puerto.5665
+                0x2000042c        0x8 .pio\build\bluepill_f103c8\src\principal.o
+ .bss.spos.5683
+                0x20000434        0x8 .pio\build\bluepill_f103c8\src\principal.o
+ .bss.stemp.5682
+                0x2000043c        0x8 .pio\build\bluepill_f103c8\src\principal.o
+ .bss.temp.5684
+                0x20000444        0x8 .pio\build\bluepill_f103c8\src\principal.o
  .bss.termometroADC
-                0x200004a4        0x4 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
+                0x2000044c        0x4 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .bss.__malloc_free_list
-                0x200004a8        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
-                0x200004a8                __malloc_free_list
+                0x20000450        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+                0x20000450                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x200004ac        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
-                0x200004ac                __malloc_sbrk_start
+                0x20000454        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+                0x20000454                __malloc_sbrk_start
  .bss.heap_end.4102
-                0x200004b0        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+                0x20000458        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
  *(COMMON)
- COMMON         0x200004b4        0x4 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
-                0x200004b4                errno
-                0x200004b8                . = ALIGN (0x4)
-                0x200004b8                _ebss = .
-                0x200004b8                __bss_end__ = _ebss
+ COMMON         0x2000045c        0x4 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+                0x2000045c                errno
+                0x20000460                . = ALIGN (0x4)
+                0x20000460                _ebss = .
+                0x20000460                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200004b8      0x600 load address 0x08001d44
-                0x200004b8                . = ALIGN (0x8)
-                0x200004b8                PROVIDE (end, .)
+                0x20000460      0x600 load address 0x08001bf0
+                0x20000460                . = ALIGN (0x8)
+                0x20000460                PROVIDE (end, .)
                 [!provide]                PROVIDE (_end, .)
-                0x200006b8                . = (. + _Min_Heap_Size)
- *fill*         0x200004b8      0x200 
-                0x20000ab8                . = (. + _Min_Stack_Size)
- *fill*         0x200006b8      0x400 
-                0x20000ab8                . = ALIGN (0x8)
+                0x20000660                . = (. + _Min_Heap_Size)
+ *fill*         0x20000460      0x200 
+                0x20000a60                . = (. + _Min_Stack_Size)
+ *fill*         0x20000660      0x400 
+                0x20000a60                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -889,9 +875,9 @@ LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/
                 0x00000000       0x29
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x1d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x00000000       0x1d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
  .ARM.attributes
-                0x0000001d       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x0000001d       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
  .ARM.attributes
                 0x0000004a       0x21 .pio\build\bluepill_f103c8\FrameworkCMSIS\gcc\startup_stm32f103xb.o
  .ARM.attributes
@@ -901,81 +887,81 @@ LOAD c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/
  .ARM.attributes
                 0x000000d1       0x33 .pio\build\bluepill_f103c8\src\principal.o
  .ARM.attributes
-                0x00000104       0x33 .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
+                0x00000104       0x33 .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
  .ARM.attributes
-                0x00000137       0x33 .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
+                0x00000137       0x33 .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
  .ARM.attributes
-                0x0000016a       0x33 .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
+                0x0000016a       0x33 .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
  .ARM.attributes
-                0x0000019d       0x33 .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
+                0x0000019d       0x33 .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
  .ARM.attributes
-                0x000001d0       0x33 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
+                0x000001d0       0x33 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
  .ARM.attributes
-                0x00000203       0x33 .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
+                0x00000203       0x33 .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
  .ARM.attributes
-                0x00000236       0x33 .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
+                0x00000236       0x33 .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
  .ARM.attributes
-                0x00000269       0x33 .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
+                0x00000269       0x33 .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
  .ARM.attributes
-                0x0000029c       0x33 .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
+                0x0000029c       0x33 .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
  .ARM.attributes
-                0x000002cf       0x33 .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
+                0x000002cf       0x33 .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
  .ARM.attributes
-                0x00000302       0x33 .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
+                0x00000302       0x33 .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
  .ARM.attributes
-                0x00000335       0x33 .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
+                0x00000335       0x33 .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
  .ARM.attributes
-                0x00000368       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+                0x00000368       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
  .ARM.attributes
-                0x00000395       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
+                0x00000395       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x000003c2       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+                0x000003c2       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x000003ef       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+                0x000003ef       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
  .ARM.attributes
-                0x0000041c       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+                0x0000041c       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
  .ARM.attributes
-                0x00000449       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+                0x00000449       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
  .ARM.attributes
-                0x00000476       0x1b c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
+                0x00000476       0x1b c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x00000491       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+                0x00000491       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
  .ARM.attributes
-                0x000004be       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+                0x000004be       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
  .ARM.attributes
-                0x000004eb       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
+                0x000004eb       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x00000518       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000518       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000545       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000545       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000572       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+                0x00000572       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x0000059f       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000059f       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000005cc       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+                0x000005cc       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x000005f9       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+                0x000005f9       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000626       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000626       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x00000653       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+                0x00000653       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000680       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+                0x00000680       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000006ad       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+                0x000006ad       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000006da       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+                0x000006da       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x00000707       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+                0x00000707       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x00000734       0x33 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
+                0x00000734       0x33 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
  .ARM.attributes
-                0x00000767       0x33 .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+                0x00000767       0x33 .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
  .ARM.attributes
-                0x0000079a       0x2d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+                0x0000079a       0x2d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
  .ARM.attributes
-                0x000007c7       0x1d c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x000007c7       0x1d c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
 OUTPUT(.pio\build\bluepill_f103c8\firmware.elf elf32-littlearm)
 
 .comment        0x00000000       0x7e
@@ -983,40 +969,40 @@ OUTPUT(.pio\build\bluepill_f103c8\firmware.elf elf32-littlearm)
                                  0x7f (size before relaxing)
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\src\definiciones_comandos.o
  .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\src\principal.o
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\liba50\libentrada_digital.a(entrada_digital.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libd64\libsalida_digital.a(salida_digital.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib6b8\libmotor.a(motor.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib590\libcontrol_posicion.a(control_posicion.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib4c2\libtermometro.a(termometro_adc.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib0bb\libcontrol_temperatura.a(control_temperatura.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib7fc\libcomando.a(comando.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib683\libdiccionario_comandos.a(diccionario_comandos.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib71f\libfifo.a(fifo.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib437\libpuerto_serie.a(puerto_serie.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libc92\libinterprete.a(interprete.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libd0c\libperifericos.a(adc.o)
- .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libd0c\libperifericos.a(gpio.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib385\libentrada_digital.a(entrada_digital.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libffc\libsalida_digital.a(salida_digital.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib3df\libmotor.a(motor.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib91f\libcontrol_posicion.a(control_posicion.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib7f4\libtermometro.a(termometro_adc.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib759\libcontrol_temperatura.a(control_temperatura.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib821\libcomando.a(comando.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libf1f\libdiccionario_comandos.a(diccionario_comandos.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libbe6\libfifo.a(fifo.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\libc5a\libpuerto_serie.a(puerto_serie.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib4a2\libinterprete.a(interprete.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib79c\libperifericos.a(adc.o)
+ .comment       0x0000007e       0x7f .pio\build\bluepill_f103c8\lib79c\libperifericos.a(gpio.o)
 
 .debug_frame    0x00000000      0x568
- .debug_frame   0x00000000       0x30 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
- .debug_frame   0x00000030       0x2c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000005c       0x68 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
- .debug_frame   0x000000c4       0x48 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
- .debug_frame   0x0000010c       0x7c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
- .debug_frame   0x00000188       0x20 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
- .debug_frame   0x000001a8       0x84 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
- .debug_frame   0x0000022c       0x3c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
- .debug_frame   0x00000268       0x90 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x000002f8       0x60 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000358       0x28 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00000380       0x28 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x000003a8       0x28 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x000003d0       0x38 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000408       0x2c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000434       0x3c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000470       0x2c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000049c       0x30 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x000004cc       0x20 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x000004ec       0x5c c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
- .debug_frame   0x00000548       0x20 c:/users/new game/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
+ .debug_frame   0x00000000       0x30 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-atoi.o)
+ .debug_frame   0x00000030       0x2c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000005c       0x68 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-locale.o)
+ .debug_frame   0x000000c4       0x48 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x0000010c       0x7c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-snprintf.o)
+ .debug_frame   0x00000188       0x20 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x000001a8       0x84 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-strtol.o)
+ .debug_frame   0x0000022c       0x3c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00000268       0x90 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x000002f8       0x60 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000358       0x28 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000380       0x28 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000003a8       0x28 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x000003d0       0x38 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000408       0x2c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000434       0x3c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000470       0x2c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000049c       0x30 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x000004cc       0x20 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x000004ec       0x5c c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000548       0x20 c:/users/usuario/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libnosys.a(sbrk.o)
