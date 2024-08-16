@@ -27,6 +27,12 @@ typedef struct ComandoTemp{
     Termometro *termometro;
 }ComandoTemp;
 
+/**
+ * @brief inicializa ComandoStemp  
+ * 
+ * @param self 
+ * @param tempDeseada 
+ */
 void ComandoStemp_init(ComandoStemp *self, VariableInt *tempDeseada);
 void ComandoSpos_init(ComandoSpos *self, VariablePos *posDeseada);
 void ComandoPos_init(ComandoPos *self, EntradaDigital *fin_carrera_dentro, EntradaDigital *fin_carrera_fuera);

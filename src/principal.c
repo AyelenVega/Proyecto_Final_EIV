@@ -81,7 +81,7 @@ static void Init(Interprete *interprete,ControlTemperatura *controlTemp, Control
     EntradaDigital_init(&finCarreraDentro, "Fin de Carrera Dentro", PA8, true);
     EntradaDigital_init(&finCarreraFuera, "Fin de Carrera Fuera", PA7, true); 
 
-    VariablePos_init(&posDeseada, CPPosicion_DENTRO, "Posicion Deseada");
+    VariablePos_init(&posDeseada, CPPosicion_FUERA, "Posicion Deseada");
     ControlPosicion_init(controlPos, &posDeseada, &finCarreraDentro, &finCarreraFuera, &motor);
 
 // TERMOMETRO ADC:
@@ -96,7 +96,7 @@ static void Init(Interprete *interprete,ControlTemperatura *controlTemp, Control
     SalidaDigital calefactor;
     VariableInt tempDeseada;
 
-    VariableInt_init(&tempDeseada,25,"Temperatura Deseada");
+    VariableInt_init(&tempDeseada,0,"Temperatura Deseada");
     SalidaDigital_init(&calefactor,"Pin Calefactor",PA1);
 
     ControlTemperatura_init(controlTemp,termometroADC,&tempDeseada,&calefactor);
