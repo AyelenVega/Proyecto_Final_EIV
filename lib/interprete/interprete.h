@@ -24,7 +24,20 @@ typedef struct Interprete{
     ContextoComando contexto_comando;
 }Interprete;
 
+/**
+ * @brief Inicializa el interprete
+ * 
+ * @param self puntero a struct Interprete
+ * @param puerto puntero a struct PuertoSerie
+ * @param comandos puntero a struct DiccionarioComandos
+ */
 void Interprete_init(Interprete *self, PuertoSerie *puerto, DiccionarioComandos *comandos);
+
+/**
+ * @brief Ejecuta el interprete
+ * 
+ * @param self puntero a struct Interprete
+ */
 void Interprete_ejecuta(Interprete *self);
 
 #endif
