@@ -97,7 +97,7 @@ static void Init(Interprete *interprete,ControlTemperatura *controlTemp, Control
     VariableInt tempDeseada;
 
     VariableInt_init(&tempDeseada,0,"Temperatura Deseada");
-    SalidaDigital_init(&calefactor,"Pin Calefactor",PA1);
+    SalidaDigital_init(&calefactor,"Pin Calefactor",PA4);
 
     ControlTemperatura_init(controlTemp,termometroADC,&tempDeseada,&calefactor);
 
