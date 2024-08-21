@@ -38,9 +38,7 @@ void ControlTemperatura_ejecuta(ControlTemperatura *self){
         self->estado = CTEstado_ENCENDIDO;
     }
   break;
-  case CTEstado_INACTIVO:
-    // No hace nada
-  break;
+
   default:
     // Esto sería un error...
   break;

@@ -29,7 +29,7 @@ void ControlPosicion_ejecuta(ControlPosicion *self)
   if (posActual == CPPosicion_INVALIDA)
   {
     self->estado = ControlPosicion_Estado_PARADO;
-     Motor_apaga(self->motor);  
+    Motor_apaga(self->motor);  
   } else if (posDeseada != posActual){
       if (posDeseada == CPPosicion_DENTRO){
         self->estado = ControlPosicion_Estado_INGRESO;

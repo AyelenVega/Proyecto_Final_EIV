@@ -6,8 +6,7 @@
 
 typedef enum {
     CTEstado_APAGADO,
-    CTEstado_ENCENDIDO,
-    CTEstado_INACTIVO
+    CTEstado_ENCENDIDO
 }CTEstado;
 
 typedef struct ControlTemperatura{

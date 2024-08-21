@@ -55,7 +55,7 @@ static void stempEjecuta(Comando *comando,ContextoComando *ctx)
         }
         else
         {
-            ContextoComando_transmiteCadena(ctx, "stemp invalida");
+            ContextoComando_transmiteCadena(ctx, "ERROR: stemp invalida");
             ContextoComando_transmiteCadena(ctx, "\n");
 
         }
@@ -85,7 +85,7 @@ static void sposEjecuta(Comando *comando, ContextoComando *ctx){
             VariablePos_ponPosicion(self->posDeseada, CPPosicion_FUERA);
             correcto = true;
         }
-        ContextoComando_transmiteCadena(ctx, correcto ? "OK\n" : "ERROR\n");   
+        ContextoComando_transmiteCadena(ctx, correcto ? "OK\n" : "ERROR: spos invalida\n");   
     }
 }
 
