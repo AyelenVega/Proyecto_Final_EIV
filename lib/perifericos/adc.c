@@ -64,4 +64,3 @@ int adc_lee (void){
 
     return ADC1->DR;
 }
-

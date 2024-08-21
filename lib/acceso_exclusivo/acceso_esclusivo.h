@@ -45,3 +45,4 @@ inline static void limpiaBits(volatile uint32_t *registro,uint32_t bits)
 }
 
 #endif //ACCESO_EXCUSIVO_H
+

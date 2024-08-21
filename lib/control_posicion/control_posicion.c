@@ -19,7 +19,7 @@ void ControlPosicion_init(ControlPosicion *self,
   self->motor = motor;
   self->estado = ControlPosicion_Estado_PARADO;
 }
-
+ 
 void ControlPosicion_ejecuta(ControlPosicion *self)
 {
   const CPPosicion posDeseada = VariablePos_obtPos(self->posDeseada);

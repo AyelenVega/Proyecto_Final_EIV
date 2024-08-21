@@ -25,3 +25,4 @@ void Motor_apaga(Motor *self){
     SalidaDigital_apaga(&(self->motor_1));
     SalidaDigital_apaga(&(self->motor_2));
 }
+

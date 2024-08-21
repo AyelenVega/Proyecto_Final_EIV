@@ -13,3 +13,4 @@ bool EntradaDigital_lee(EntradaDigital *self){
     const bool valorEntrada = Pin_lee(self->pin) ^ self->nivelNormal;
     return valorEntrada;
 }
+

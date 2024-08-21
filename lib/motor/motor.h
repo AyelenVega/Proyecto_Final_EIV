@@ -52,5 +52,4 @@ void Motor_salida(Motor *self);
  */
 void Motor_apaga(Motor *self);
 
-
 #endif 

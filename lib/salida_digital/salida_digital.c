@@ -23,4 +23,3 @@ void SalidaDigital_apaga(SalidaDigital *self){
     self->estado = 0;
   }
 }
-

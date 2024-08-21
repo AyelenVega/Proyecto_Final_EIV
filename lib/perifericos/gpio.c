@@ -177,7 +177,6 @@ void Pin_escribe(HPin p,bool valor)
 
 }
 
-
 static uint32_t creaMascaraConfig(uint32_t mascara8Pines)
 {
     mascara8Pines = ((mascara8Pines & 0xF0) << (16-4)) | (mascara8Pines & 0x0F); 
