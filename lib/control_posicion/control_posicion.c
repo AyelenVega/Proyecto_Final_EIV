@@ -65,3 +65,4 @@ void ControlPosicion_ejecuta(ControlPosicion *self)
   break;
   }
 }
+ 
