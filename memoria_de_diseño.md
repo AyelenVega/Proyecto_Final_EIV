@@ -15,9 +15,9 @@ Se trata de un proyecto conjunto entre dos grupos, de modo que uno de ellos se e
 El subsistema de control de temperatura se encarga de mantener la temperatura del dispositivo dentro de un rango deseado. Para ello, utiliza los siguientes componentes:
 
 **Termómetro:**
-El termómetro se implementa mediante la librería `termometro.h/c`, la cual define una interfaz abstracta `Termometro` y una implementación concreta `TermometroADC` que utiliza el conversor analógico-digital (ADC) del microcontrolador.
+El termómetro se implementa mediante la librería `termometro`, la cual define una interfaz abstracta `Termometro` y una implementación concreta `TermometroADC` que utiliza el conversor analógico-digital (ADC) del microcontrolador.
 
-La función `TermometroADC_init()` inicializa el termómetro, configurando el canal ADC correspondiente. Para ello, se utiliza la librería `adc.h/c`, la cual proporciona funciones para configurar y utilizar el ADC del microcontrolador.
+La función `TermometroADC_init()` inicializa el termómetro, configurando el canal ADC correspondiente. Para ello, se utiliza la librería `adc`, la cual proporciona funciones para configurar y utilizar el ADC del microcontrolador.
 Para inicializar el coversor AD primero se debe configurar cal pin de entrada como entrada analogica.
 La frecuencia máxima de conversion establecida por el fabricante es 14MHz, sin embargo, la frecuencia del reloj del bus APB2 puede ser mayor. La función `ajustaDivADC()` (listado 1) se encarga de configurar el divisor de reloj del ADC, de modo que la frecuencia de conversión se mantenga dentro de los límites dados. 
 
@@ -323,6 +323,11 @@ void Interprete_ejecuta(Interprete *self)
 ```
 
 ## 3. Conclusiones
+El proyecto combina diversas técnicas de programación en C para crear un sistema de control robusto y flexible. Utiliza comunicación serial para interactuar con el usuario o con otros sistemas, controla salidas digitales para manejar hardware, mide la temperatura para realizar ajustes y gestiona variables para mantener el estado del sistema. La modularidad del código, con estructuras claras y funciones bien definidas, permite una fácil expansión y mantenimiento del sistema.
+
+
+
+
 
 
 
