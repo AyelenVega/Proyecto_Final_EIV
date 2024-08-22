@@ -29,3 +29,4 @@ void EntradaDigital_init(EntradaDigital *self,const char *nombre,HPin pin, bool 
 bool EntradaDigital_lee(EntradaDigital *self);
 
 #endif
+

@@ -18,10 +18,12 @@ inline const char * ContextoComando_obtNombre(ContextoComando *self)
 {
     return self->vptr_->obtNombre(self);
 }
+
 inline const char * ContextoComando_obtParametro(ContextoComando *self)
 {
     return self->vptr_->obtParametro(self);
 }
+
 inline int ContextoComando_transmiteCadena(ContextoComando *self, const char* cadena)
 {
     return self->vptr_->transmiteCadena(self,cadena);
@@ -40,7 +42,7 @@ struct Comando_VT{
 struct Comando{
     Comando_VT const * vptr_;
 };
-
+ 
 inline void Comando_ejecuta(Comando *self,ContextoComando *ctx)
 {
     self->vptr_->comandoEjecuta(self,ctx);

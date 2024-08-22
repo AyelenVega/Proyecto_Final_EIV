@@ -97,4 +97,3 @@ void Interprete_ejecuta(Interprete *self)
     break;
     }
 }
-

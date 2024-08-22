@@ -44,5 +44,4 @@ bool Fifo_pon (Fifo *self, char caracter);
  */
 bool Fifo_quita (Fifo *self, char *caracter);
 
-
 #endif

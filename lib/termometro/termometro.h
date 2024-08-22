@@ -40,5 +40,4 @@ inline int Termometro_obtTemperatura(Termometro *self){
 Termometro * TermometroADC_init(CanalADC canal);
 
 
-
 #endif

@@ -177,3 +177,4 @@ int Bus_ponModoEntrada(Bus *b);
 int Bus_ponModoSalida(Bus *b);
 
 #endif //GPIO_H
+

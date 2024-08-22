@@ -6,4 +6,3 @@
 extern inline int Termometro_obtTemperatura(Termometro *self);
 
 //FIN INTERFAZ ABSTRACTA
-
