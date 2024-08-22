@@ -163,7 +163,7 @@ void ControlTemperatura_ejecuta(ControlTemperatura *self) {
 El subsistema de control de posición se encarga de gestionar la posición de un motor, el cual puede estar en tres estados: dentro, fuera o en tránsito.
 
 **Motor**:
-El motor se controla mediante dos salidas digitales, implementadas a través de la librería `salida_digital.h/c`. La función `Motor_init()` inicializa el motor, asociando las dos salidas digitales.
+El motor se controla mediante dos salidas digitales, implementadas a través de la librería `salida_digital`. La función `Motor_init()` inicializa el motor, asociando las dos salidas digitales.
 
 Las funciones `Motor_ingreso()`, `Motor_salida()` y `Motor_apaga()` permiten controlar el estado del motor, utilizando las funciones de la librería `salida_digital` 
 
@@ -323,7 +323,15 @@ void Interprete_ejecuta(Interprete *self)
 ```
 
 ## 3. Conclusiones
-El proyecto combina diversas técnicas de programación en C para crear un sistema de control robusto y flexible. Utiliza comunicación serial para interactuar con el usuario o con otros sistemas, controla salidas digitales para manejar hardware, mide la temperatura para realizar ajustes y gestiona variables para mantener el estado del sistema. La modularidad del código, con estructuras claras y funciones bien definidas, permite una fácil expansión y mantenimiento del sistema.
+El proyecto desarrollado en este documento implementa un sistema de control de temperatura y posición de una bandeja, utilizando un microcontrolador STM32. El sistema consta de varios subsistemas que trabajan en conjunto para lograr el funcionamiento deseado.
+
+El subsistema de control de temperatura utiliza un sensor LM35 para medir la temperatura actual, y un calefactor controlado por una salida digital para mantener la temperatura dentro de un rango cercano a la temperatura de setpoint deseada por el usuario. Este subsistema implementa una lógica de control sencilla pero efectiva, encendiendo y apagando el calefactor según la temperatura medida.
+
+El subsistema de control de posición utiliza dos sensores de posición (fines de carrera) y un motor de continua para mover la bandeja dentro y fuera de la cavidad. Este subsistema implementa una máquina de estados que permite llevar la bandeja a la posición deseada, ya sea dentro o fuera de la cavidad.
+
+Por último, el subsistema de comunicación permite interactuar con el sistema de control a través de un puerto serie, utilizando un intérprete de comandos que procesa los comandos recibidos y ejecuta las acciones correspondientes. 
+
+En general, el proyecto muestra un desarrollo integral de un sistema de control embebido, con una clara separación de responsabilidades entre los diferentes subsistemas y una implementación modular y extensible de cada uno de ellos.
 
 
 
